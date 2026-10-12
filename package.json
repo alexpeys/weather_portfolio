@@ -1,0 +1,21 @@
+{
+  "name": "weather-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "dev": "python3 -m http.server 5173 --directory dist",
+    "extract": "python3 scripts/fetch-history.py"
+  },
+  "description": "Seasonal city portfolios with weather and housing indices relative to Palo Alto.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexpeys/weather_portfolio.git"
+  },
+  "homepage": "https://alexpeys.github.io/weather_portfolio/index.html",
+  "engines": {
+    "node": ">=18"
+  }
+}

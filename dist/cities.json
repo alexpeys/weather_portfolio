@@ -1,0 +1,232 @@
+{
+  "description": "Twenty-three cities selected together, plus Palo Alto as the benchmark. Jackson, Wyoming represents Jackson Hole.",
+  "cities": [
+    {
+      "id": "palo-alto",
+      "name": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "state": "TX",
+      "lat": 30.269,
+      "lon": -97.745
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "state": "CO",
+      "lat": 39.741,
+      "lon": -104.986
+    },
+    {
+      "id": "boulder",
+      "name": "Boulder",
+      "state": "CO",
+      "lat": 40.038,
+      "lon": -105.246
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "state": "OR",
+      "lat": 44.05817,
+      "lon": -121.31531,
+      "elevation": 1106.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Bend&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5713587,
+      "admin1": "Oregon",
+      "admin2": "Deschutes"
+    },
+    {
+      "id": "eugene",
+      "name": "Eugene",
+      "state": "OR",
+      "lat": 44.05207,
+      "lon": -123.08675,
+      "elevation": 131.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Eugene&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5725846,
+      "admin1": "Oregon",
+      "admin2": "Lane"
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "state": "FL",
+      "lat": 25.79,
+      "lon": -80.226
+    },
+    {
+      "id": "minneapolis",
+      "name": "Minneapolis",
+      "state": "MN",
+      "lat": 44.97997,
+      "lon": -93.26384,
+      "elevation": 253.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Minneapolis&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5037649,
+      "admin1": "Minnesota",
+      "admin2": "Hennepin"
+    },
+    {
+      "id": "reno",
+      "name": "Reno",
+      "state": "NV",
+      "lat": 39.52963,
+      "lon": -119.8138,
+      "elevation": 1373.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Reno&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5511077,
+      "admin1": "Nevada",
+      "admin2": "Washoe County"
+    },
+    {
+      "id": "jackson",
+      "name": "Jackson",
+      "state": "WY",
+      "lat": 43.47993,
+      "lon": -110.76243,
+      "elevation": 1901.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Jackson&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5828648,
+      "admin1": "Wyoming",
+      "admin2": "Teton",
+      "displayName": "Jackson Hole",
+      "locationNote": "Jackson, Wyoming town center; housing addresses in Jackson, WY."
+    },
+    {
+      "id": "bozeman",
+      "name": "Bozeman",
+      "state": "MT",
+      "lat": 45.67965,
+      "lon": -111.03856,
+      "elevation": 1468.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Bozeman&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5641727,
+      "admin1": "Montana",
+      "admin2": "Gallatin"
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "state": "AZ",
+      "lat": 33.542,
+      "lon": -112.072
+    },
+    {
+      "id": "tucson",
+      "name": "Tucson",
+      "state": "AZ",
+      "lat": 32.207,
+      "lon": -110.892
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "state": "NV",
+      "lat": 36.212,
+      "lon": -115.222
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "state": "MA",
+      "lat": 42.35843,
+      "lon": -71.05977,
+      "elevation": 14.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Boston&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 4930956,
+      "admin1": "Massachusetts",
+      "admin2": "Suffolk"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "state": "CA",
+      "lat": 33.992,
+      "lon": -118.182
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "lat": 34.42083,
+      "lon": -119.69819,
+      "elevation": 15.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Santa+Barbara&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 5392952,
+      "admin1": "California",
+      "admin2": "Santa Barbara"
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "state": "CA",
+      "lat": 32.822,
+      "lon": -117.182
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "Salt Lake City",
+      "state": "UT",
+      "lat": 40.777,
+      "lon": -111.932
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "state": "WA",
+      "lat": 47.572,
+      "lon": -122.342
+    },
+    {
+      "id": "asheville",
+      "name": "Asheville",
+      "state": "NC",
+      "lat": 35.60095,
+      "lon": -82.55402,
+      "elevation": 649.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Asheville&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 4453066,
+      "admin1": "North Carolina",
+      "admin2": "Buncombe"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "state": "NY",
+      "lat": 40.752,
+      "lon": -73.982,
+      "aliases": [
+        "NYC",
+        "New York City"
+      ]
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "state": "PA",
+      "lat": 39.95238,
+      "lon": -75.16362,
+      "elevation": 12.0,
+      "geocodeSource": "https://geocoding-api.open-meteo.com/v1/search?name=Philadelphia&count=100&language=en&format=json&countryCode=US",
+      "geonamesId": 4560349,
+      "admin1": "Pennsylvania",
+      "admin2": "Philadelphia",
+      "aliases": [
+        "Philly"
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "state": "IL",
+      "lat": 41.832,
+      "lon": -87.752
+    }
+  ]
+}

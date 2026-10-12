@@ -1,0 +1,4850 @@
+{
+  "version": 1,
+  "metric": "Median asking price in a sample of exact 3-bedroom, 2-bath home listings",
+  "sourceName": "Redfin public listing pages",
+  "retrievedAt": "2026-10-11",
+  "selection": "First public results page for each city, in source default order; exactly 3 bedrooms and 2 bathrooms; matching city in the listing address; duplicate addresses removed. Boston includes official city neighborhoods; New York includes its five boroughs. Jackson Hole uses Jackson, Wyoming addresses. All listed residential home types are included. This is a non-random listing sample, not a comprehensive citywide median or closed-sale series.",
+  "cities": [
+    {
+      "id": "palo-alto",
+      "name": "Palo Alto",
+      "state": "CA",
+      "medianPrice": 2939000.0,
+      "sampleSize": 8,
+      "source": "https://www.redfin.com/city/14325/CA/Palo-Alto/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 1,
+      "samples": [
+        {
+          "price": 2980000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3839 Nathan Way, Palo Alto, CA 94303"
+        },
+        {
+          "price": 2698000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1111 Alma St, Palo Alto, CA 94301"
+        },
+        {
+          "price": 2988000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1319 Hopkins Ave, Palo Alto, CA 94301"
+        },
+        {
+          "price": 2488000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1119 Oregon Ave, Palo Alto, CA 94303"
+        },
+        {
+          "price": 3680000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2020 Channing Ave, Palo Alto, CA 94303"
+        },
+        {
+          "price": 2898000,
+          "beds": 3,
+          "baths": 2,
+          "address": "795 East Charleston Rd, Palo Alto, CA 94303"
+        },
+        {
+          "price": 1485000,
+          "beds": 3,
+          "baths": 2,
+          "address": "496 West Charleston Rd #302, Palo Alto, CA 94306"
+        },
+        {
+          "price": 3249000,
+          "beds": 3,
+          "baths": 2,
+          "address": "433 Monroe Dr, Palo Alto, CA 94306"
+        }
+      ]
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "state": "TX",
+      "medianPrice": 478000,
+      "sampleSize": 37,
+      "source": "https://www.redfin.com/city/30818/TX/Austin/3-bedroom-2-bath",
+      "sourceCrawl": "2 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 27,
+      "samples": [
+        {
+          "price": 850000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6903 Ardath St, Austin, TX 78757"
+        },
+        {
+          "price": 799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4502 Avenue H, Austin, TX 78751"
+        },
+        {
+          "price": 390000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13105 Bourbon St, Austin, TX 78727"
+        },
+        {
+          "price": 460000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7314 Eganhill Dr, Austin, TX 78745"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11010 Prairie Dove Cir, Austin, TX 78758"
+        },
+        {
+          "price": 200000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4606 Borage Dr, Austin, TX 78744"
+        },
+        {
+          "price": 259900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2614 Aylesbury Ln, Austin, TX 78745"
+        },
+        {
+          "price": 679000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2812 Cascade Falls Dr, Austin, TX 78738"
+        },
+        {
+          "price": 900000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1402 Romeria Dr, Austin, TX 78757"
+        },
+        {
+          "price": 775000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10804 Enclave Vista Cv, Austin, TX 78730"
+        },
+        {
+          "price": 260000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1706 Redd St #2, Austin, TX 78745"
+        },
+        {
+          "price": 260000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7203 Coronado Cir, Austin, TX 78752"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3008 Burks Ln, Austin, TX 78732"
+        },
+        {
+          "price": 449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1406 Camelot Cir #1, Austin, TX 78745"
+        },
+        {
+          "price": 660000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6413 York Bridge Cir, Austin, TX 78749"
+        },
+        {
+          "price": 535000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9706 Woodshire Dr, Austin, TX 78748"
+        },
+        {
+          "price": 525000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1801 Belford Dr, Austin, TX 78757"
+        },
+        {
+          "price": 475000,
+          "beds": 3,
+          "baths": 2,
+          "address": "15205 Back Of The Moon St, Austin, TX 78734"
+        },
+        {
+          "price": 515000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3415 Amalfi Cv, Austin, TX 78759"
+        },
+        {
+          "price": 389000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1729 Cricket Hollow Dr, Austin, TX 78758"
+        },
+        {
+          "price": 371000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13020 Moorcroft Ln, Austin, TX 78729"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12006 Trianon Ln, Austin, TX 78727"
+        },
+        {
+          "price": 849000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4004 Austin Woods Dr, Austin, TX 78759"
+        },
+        {
+          "price": 449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1515 Mearns Meadow Blvd, Austin, TX 78758"
+        },
+        {
+          "price": 300000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6413 Jennings Dr, Austin, TX 78727"
+        },
+        {
+          "price": 478000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12501 Preece Dr, Austin, TX 78729"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2512 Mcgregor Dr, Austin, TX 78745"
+        },
+        {
+          "price": 289990,
+          "beds": 3,
+          "baths": 2,
+          "address": "11601 Oak Haven Cv, Austin, TX 78753"
+        },
+        {
+          "price": 416000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12735 Magnolia Mound Trl, Austin, TX 78727"
+        },
+        {
+          "price": 515000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5005 Ganymede Dr, Austin, TX 78727"
+        },
+        {
+          "price": 440000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7707 Meadowview Ln, Austin, TX 78752"
+        },
+        {
+          "price": 1145000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2501 Del Curto Rd, Austin, TX 78704"
+        },
+        {
+          "price": 220000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6009 Wideleaf Dr, Austin, TX 78724"
+        },
+        {
+          "price": 275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1060 Gardner, Austin, TX 78721"
+        },
+        {
+          "price": 644900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2011 Fortview Rd, Austin, TX 78704"
+        },
+        {
+          "price": 585000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2906 Katter Ct, Austin, TX 78734"
+        },
+        {
+          "price": 536000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6504 Sunnysky Way, Austin, TX 78745"
+        }
+      ]
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "state": "CO",
+      "medianPrice": 614999.5,
+      "sampleSize": 30,
+      "source": "https://www.redfin.com/city/5155/CO/Denver/3-bedroom-2-bath",
+      "sourceCrawl": "last week",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 12,
+      "samples": [
+        {
+          "price": 1000000,
+          "beds": 3,
+          "baths": 2,
+          "address": "968 Madison St, Denver, CO 80206"
+        },
+        {
+          "price": 870000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4581 Bryant St, Denver, CO 80211"
+        },
+        {
+          "price": 1100000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1210 Ivy St, Denver, CO 80220"
+        },
+        {
+          "price": 875000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4585 Vrain St, Denver, CO 80212"
+        },
+        {
+          "price": 690000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4622 W 35th Ave, Denver, CO 80212"
+        },
+        {
+          "price": 1000000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1151 S Josephine St, Denver, CO 80210"
+        },
+        {
+          "price": 440000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3 S Irving St, Denver, CO 80219"
+        },
+        {
+          "price": 630000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1359 Gaylord St #3, Denver, CO 80206"
+        },
+        {
+          "price": 439000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1555 California Street St #412, Denver, CO 80202"
+        },
+        {
+          "price": 1333000,
+          "beds": 3,
+          "baths": 2,
+          "address": "191 S Humboldt St, Denver, CO 80209"
+        },
+        {
+          "price": 610000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7900 E Dartmouth Ave #78, Denver, CO 80231"
+        },
+        {
+          "price": 549900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4503 S Quitman St, Denver, CO 80236"
+        },
+        {
+          "price": 575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1162 Kalamath St, Denver, CO 80204"
+        },
+        {
+          "price": 720000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1877 S Gilpin St, Denver, CO 80210"
+        },
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1398 E Yale Ave, Denver, CO 80210"
+        },
+        {
+          "price": 540000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3030 Newport St, Denver, CO 80207"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4845 Chase St, Denver, CO 80212"
+        },
+        {
+          "price": 599900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2451 W 55th Ave, Denver, CO 80221"
+        },
+        {
+          "price": 420000,
+          "beds": 3,
+          "baths": 2,
+          "address": "15780 E 48th Pl, Denver, CO 80239"
+        },
+        {
+          "price": 495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6780 Irving St, Denver, CO 80221"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5351 Quitman St, Denver, CO 80212"
+        },
+        {
+          "price": 560000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5319 E Martin Luther King Blvd, Denver, CO 80207"
+        },
+        {
+          "price": 935000,
+          "beds": 3,
+          "baths": 2,
+          "address": "665 Ivy St, Denver, CO 80220"
+        },
+        {
+          "price": 995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1471 S Franklin St, Denver, CO 80210"
+        },
+        {
+          "price": 399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3230 S Decatur St, Denver, CO 80236"
+        },
+        {
+          "price": 649000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4851 Knox Ct, Denver, CO 80221"
+        },
+        {
+          "price": 369900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2918 W 2nd Ave, Denver, CO 80219"
+        },
+        {
+          "price": 1155000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1777 Ivanhoe St, Denver, CO 80220"
+        },
+        {
+          "price": 448000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1750 S Raritan St, Denver, CO 80223"
+        },
+        {
+          "price": 619999,
+          "beds": 3,
+          "baths": 2,
+          "address": "4925 Wyandot St, Denver, CO 80221"
+        }
+      ]
+    },
+    {
+      "id": "boulder",
+      "name": "Boulder",
+      "state": "CO",
+      "medianPrice": 750000,
+      "sampleSize": 29,
+      "source": "https://www.redfin.com/city/2025/CO/Boulder/3-bedroom-2-bath",
+      "sourceCrawl": "last month",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 2,
+      "samples": [
+        {
+          "price": 1175000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1145 Claremont Dr, Boulder, CO 80305"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "750 Cougar Dr, Boulder, CO 80302"
+        },
+        {
+          "price": 665000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2693 Juniper Ave, Boulder, CO 80304"
+        },
+        {
+          "price": 725000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1345 Bear Mountain Dr Unit B, Boulder, CO 80305"
+        },
+        {
+          "price": 325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5124 Williams Fork Trl #203, Boulder, CO 80301"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "39 Spring Ln, Boulder, CO 80302"
+        },
+        {
+          "price": 625000,
+          "beds": 3,
+          "baths": 2,
+          "address": "857 Roxwood Ln, Boulder, CO 80303"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1333 Mariposa Ave, Boulder, CO 80302"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "279 Switzerland Park Rd, Boulder, CO 80302"
+        },
+        {
+          "price": 330000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5122 Williams Fork Trl #110, Boulder, CO 80301"
+        },
+        {
+          "price": 819000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3776 Telluride Ln, Boulder, CO 80305"
+        },
+        {
+          "price": 1225000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3760 Silver Plume Ln, Boulder, CO 80305"
+        },
+        {
+          "price": 1045000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8394 Larkspur Rd, Boulder, CO 80302"
+        },
+        {
+          "price": 579000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2996 Shady Holw W, Boulder, CO 80304"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1683 Yellow Pine Ave, Boulder, CO 80304"
+        },
+        {
+          "price": 830000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7618 Aberdeen Way, Boulder, CO 80301"
+        },
+        {
+          "price": 148000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1561 S Foothills Hwy, Boulder, CO 80305"
+        },
+        {
+          "price": 699900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1239 Harrison Ct, Boulder, CO 80303"
+        },
+        {
+          "price": 1995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1412 Sunshine Canyon Dr, Boulder, CO 80302"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3035 Oneal Pkwy Unit 10T, Boulder, CO 80301"
+        },
+        {
+          "price": 990000,
+          "beds": 3,
+          "baths": 2,
+          "address": "219 29th St, Boulder, CO 80305"
+        },
+        {
+          "price": 294218,
+          "beds": 3,
+          "baths": 2,
+          "address": "2510 Taft Dr #300, Boulder, CO 80302"
+        },
+        {
+          "price": 197000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4500 19th St #474, Boulder, CO 80304"
+        },
+        {
+          "price": 152000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4500 19th St #33, Boulder, CO 80304"
+        },
+        {
+          "price": 855000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1120 Poplar Ave, Boulder, CO 80304"
+        },
+        {
+          "price": 800000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2830 E College Ave #105, Boulder, CO 80303"
+        },
+        {
+          "price": 1300000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1420 Cherryvale Rd, Boulder, CO 80303"
+        },
+        {
+          "price": 725000,
+          "beds": 3,
+          "baths": 2,
+          "address": "745 Arapahoe Ave #202, Boulder, CO 80302"
+        },
+        {
+          "price": 1295000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6709 Olde Stage Rd, Boulder, CO 80302"
+        }
+      ]
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "state": "OR",
+      "medianPrice": 649900,
+      "sampleSize": 29,
+      "source": "https://www.redfin.com/city/1543/OR/Bend/3-bedroom-2-bath",
+      "sourceCrawl": "last week",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 9,
+      "samples": [
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "408 NE Hawthorne Ave, Bend, OR 97701"
+        },
+        {
+          "price": 665000,
+          "beds": 3,
+          "baths": 2,
+          "address": "61390 Rock Bluff Ln, Bend, OR 97702"
+        },
+        {
+          "price": 665000,
+          "beds": 3,
+          "baths": 2,
+          "address": "61563 Newberry Dr, Bend, OR 97702"
+        },
+        {
+          "price": 665000,
+          "beds": 3,
+          "baths": 2,
+          "address": "20711 Nicolette Dr, Bend, OR 97701"
+        },
+        {
+          "price": 499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1430 NE Sharkey Ter, Bend, OR 97701"
+        },
+        {
+          "price": 629000,
+          "beds": 3,
+          "baths": 2,
+          "address": "231 SE Airpark Dr, Bend, OR 97702"
+        },
+        {
+          "price": 610000,
+          "beds": 3,
+          "baths": 2,
+          "address": "56085 Marsh Hawk Rd, Bend, OR 97707"
+        },
+        {
+          "price": 959000,
+          "beds": 3,
+          "baths": 2,
+          "address": "20594 Jefferson Ct, Bend, OR 97703"
+        },
+        {
+          "price": 815000,
+          "beds": 3,
+          "baths": 2,
+          "address": "19241 Indian Summer Rd, Bend, OR 97702"
+        },
+        {
+          "price": 649900,
+          "beds": 3,
+          "baths": 2,
+          "address": "62928 Florence Dr, Bend, OR 97701"
+        },
+        {
+          "price": 435000,
+          "beds": 3,
+          "baths": 2,
+          "address": "56252 Comet Dr, Bend, OR 97707"
+        },
+        {
+          "price": 1050000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2424 NW Crossing Dr, Bend, OR 97703"
+        },
+        {
+          "price": 569900,
+          "beds": 3,
+          "baths": 2,
+          "address": "21124 Azalia Ave, Bend, OR 97702"
+        },
+        {
+          "price": 349900,
+          "beds": 3,
+          "baths": 2,
+          "address": "17131 Helbrock Dr, Bend, OR 97707"
+        },
+        {
+          "price": 574900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1571 NE Butler Market Rd, Bend, OR 97701"
+        },
+        {
+          "price": 1049900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3544 NW Mccready Dr, Bend, OR 97703"
+        },
+        {
+          "price": 519000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17405 Killdeer Dr, Bend, OR 97707"
+        },
+        {
+          "price": 749900,
+          "beds": 3,
+          "baths": 2,
+          "address": "64552 Sylvan Loop, Bend, OR 97701"
+        },
+        {
+          "price": 1050000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2265 NW Skyline Ranch Rd, Bend, OR 97703"
+        },
+        {
+          "price": 589000,
+          "beds": 3,
+          "baths": 2,
+          "address": "20717 Snow Peaks Dr, Bend, OR 97701"
+        },
+        {
+          "price": 725000,
+          "beds": 3,
+          "baths": 2,
+          "address": "19995 Badger Rd, Bend, OR 97702"
+        },
+        {
+          "price": 649900,
+          "beds": 3,
+          "baths": 2,
+          "address": "61158 SE Berkshire Way, Bend, OR 97702"
+        },
+        {
+          "price": 589000,
+          "beds": 3,
+          "baths": 2,
+          "address": "63152 Watercress Way, Bend, OR 97701"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "20466 Mainline Rd, Bend, OR 97702"
+        },
+        {
+          "price": 680000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10 Ashwood Ln, Bend, OR 97707"
+        },
+        {
+          "price": 1400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "320 NW Riverside Blvd, Bend, OR 97703"
+        },
+        {
+          "price": 535000,
+          "beds": 3,
+          "baths": 2,
+          "address": "951 NE Lena Pl, Bend, OR 97701"
+        },
+        {
+          "price": 609000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1130 NE 8th St, Bend, OR 97701"
+        },
+        {
+          "price": 585000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2624 NE Brandon Ct, Bend, OR 97701"
+        }
+      ]
+    },
+    {
+      "id": "eugene",
+      "name": "Eugene",
+      "state": "OR",
+      "medianPrice": 447487.5,
+      "sampleSize": 42,
+      "source": "https://www.redfin.com/city/6142/OR/Eugene/3-bedroom-2-bath",
+      "sourceCrawl": "yesterday",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 3,
+      "samples": [
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2650 Bowmont Dr, Eugene, OR 97405"
+        },
+        {
+          "price": 175000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3355 N Delta Hwy #190, Eugene, OR 97408"
+        },
+        {
+          "price": 559000,
+          "beds": 3,
+          "baths": 2,
+          "address": "953 Forrester Way, Eugene, OR 97401"
+        },
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3142 Onyx Pl, Eugene, OR 97405"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2092 Four Oak Grange Rd, Eugene, OR 97405"
+        },
+        {
+          "price": 299000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3220 Crescent Ave #53, Eugene, OR 97408"
+        },
+        {
+          "price": 649000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2765 Spring Blvd, Eugene, OR 97403"
+        },
+        {
+          "price": 439000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4874 Herman St, Eugene, OR 97404"
+        },
+        {
+          "price": 580000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1718 Victorian Way, Eugene, OR 97401"
+        },
+        {
+          "price": 499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1161 W 18th Ave, Eugene, OR 97402"
+        },
+        {
+          "price": 215000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4055 Royal Ave #76, Eugene, OR 97402"
+        },
+        {
+          "price": 599900,
+          "beds": 3,
+          "baths": 2,
+          "address": "28095 Clear Lake Rd, Eugene, OR 97402"
+        },
+        {
+          "price": 104888,
+          "beds": 3,
+          "baths": 2,
+          "address": "555 N Danebo Ave #83, Eugene, OR 97402"
+        },
+        {
+          "price": 575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3540 Onyx St, Eugene, OR 97405"
+        },
+        {
+          "price": 235000,
+          "beds": 3,
+          "baths": 2,
+          "address": "33964 D St, Eugene, OR 97405"
+        },
+        {
+          "price": 499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3465 Strathmore Pl, Eugene, OR 97405"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2595 Crescent Ave, Eugene, OR 97408"
+        },
+        {
+          "price": 485000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1760 Graham Dr, Eugene, OR 97405"
+        },
+        {
+          "price": 379900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1835 City View St, Eugene, OR 97405"
+        },
+        {
+          "price": 475000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5422 King Arthur Ct, Eugene, OR 97402"
+        },
+        {
+          "price": 399400,
+          "beds": 3,
+          "baths": 2,
+          "address": "2881 River Rd, Eugene, OR 97404"
+        },
+        {
+          "price": 529000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2466 Erin Way, Eugene, OR 97408"
+        },
+        {
+          "price": 379999,
+          "beds": 3,
+          "baths": 2,
+          "address": "28 Lawrence St, Eugene, OR 97401"
+        },
+        {
+          "price": 97500,
+          "beds": 3,
+          "baths": 2,
+          "address": "1199 N Terry St #119, Eugene, OR 97402"
+        },
+        {
+          "price": 409000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4559 Souza St, Eugene, OR 97402"
+        },
+        {
+          "price": 439900,
+          "beds": 3,
+          "baths": 2,
+          "address": "992 Travis Ave, Eugene, OR 97404"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "40 Briarcliff Dr, Eugene, OR 97404"
+        },
+        {
+          "price": 495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1470 Queens Way, Eugene, OR 97401"
+        },
+        {
+          "price": 449975,
+          "beds": 3,
+          "baths": 2,
+          "address": "5398 Donohoe Ave, Eugene, OR 97402"
+        },
+        {
+          "price": 525000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3046 Bailey Ln, Eugene, OR 97401"
+        },
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3827 Vine Maple St, Eugene, OR 97405"
+        },
+        {
+          "price": 199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3355 N Delta Hwy #194, Eugene, OR 97408"
+        },
+        {
+          "price": 465000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5345 Club Dr, Eugene, OR 97402"
+        },
+        {
+          "price": 469900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2047 Orr Ln, Eugene, OR 97405"
+        },
+        {
+          "price": 429995,
+          "beds": 3,
+          "baths": 2,
+          "address": "1285 Laurelhurst Dr, Eugene, OR 97402"
+        },
+        {
+          "price": 445000,
+          "beds": 3,
+          "baths": 2,
+          "address": "355 River Rd, Eugene, OR 97404"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "Undisclosed address, Eugene, OR 97404"
+        },
+        {
+          "price": 389000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1455 Perdue Loop, Eugene, OR 97401"
+        },
+        {
+          "price": 189900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4055 Royal Ave #22, Eugene, OR 97402"
+        },
+        {
+          "price": 430000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5255 Donohoe Ave, Eugene, OR 97402"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "28016 Green Oaks Dr, Eugene, OR 97402"
+        },
+        {
+          "price": 164900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1699 N Terry St #115, Eugene, OR 97402"
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "state": "FL",
+      "medianPrice": 630000,
+      "sampleSize": 43,
+      "source": "https://www.redfin.com/city/11458/FL/Miami/3-bedroom-2-bath",
+      "sourceCrawl": "6 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 20,
+      "samples": [
+        {
+          "price": 1390000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4270 SW 13th St, Miami, FL 33134"
+        },
+        {
+          "price": 285000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8760 SW 133rd Ave Rd #114, Miami, FL 33183"
+        },
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3955 SW 69th Ave, Miami, FL 33155"
+        },
+        {
+          "price": 625000,
+          "beds": 3,
+          "baths": 2,
+          "address": "510 NW 108th St, Miami, FL 33168"
+        },
+        {
+          "price": 889000,
+          "beds": 3,
+          "baths": 2,
+          "address": "803 NW 133rd Ct, Miami, FL 33182"
+        },
+        {
+          "price": 549000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1135 NW 109th St, Miami, FL 33168"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5241 SW 98th Ave Rd, Miami, FL 33165"
+        },
+        {
+          "price": 1198000,
+          "beds": 3,
+          "baths": 2,
+          "address": "905 NE 209th St Unit 104-30, Miami, FL 33179"
+        },
+        {
+          "price": 498000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1220 NW 91st St, Miami, FL 33147"
+        },
+        {
+          "price": 1199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1530 SW 24th Ave, Miami, FL 33145"
+        },
+        {
+          "price": 999000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3311 SW 64 Ave, Miami, FL 33155"
+        },
+        {
+          "price": 900000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2520 SW 22nd Ter, Miami, FL 33145"
+        },
+        {
+          "price": 1265000,
+          "beds": 3,
+          "baths": 2,
+          "address": "718 NE 87th St, Miami, FL 33138"
+        },
+        {
+          "price": 485000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1427 NW 69th Ter, Miami, FL 33147"
+        },
+        {
+          "price": 610000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12231 SW 195th Ter, Miami, FL 33177"
+        },
+        {
+          "price": 1169000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6129 SW 28th St, Miami, FL 33155"
+        },
+        {
+          "price": 1575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5801 SW 53rd Ter, Miami, FL 33155"
+        },
+        {
+          "price": 360000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8425 NW 8th St #401, Miami, FL 33126"
+        },
+        {
+          "price": 630000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17931 SW 115th Ave, Miami, FL 33157"
+        },
+        {
+          "price": 589000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10762 SW 145th St, Miami, FL 33176"
+        },
+        {
+          "price": 675000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3095 NW 3rd St, Miami, FL 33125"
+        },
+        {
+          "price": 550000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17830 SW 143rd Ct, Miami, FL 33177"
+        },
+        {
+          "price": 769000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8232 SW 81st Ter #8232, Miami, FL 33143"
+        },
+        {
+          "price": 657000,
+          "beds": 3,
+          "baths": 2,
+          "address": "15351 SW 43rd Ter, Miami, FL 33185"
+        },
+        {
+          "price": 725000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13403 SW 118th Pass, Miami, FL 33186"
+        },
+        {
+          "price": 849000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3416 SW 16th St, Miami, FL 33145"
+        },
+        {
+          "price": 350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1121 SW 122nd Ave Unit 414-2, Miami, FL 33184"
+        },
+        {
+          "price": 490000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5641 SW 139th Pl, Miami, FL 33183"
+        },
+        {
+          "price": 535000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9840 SW 166th St, Miami, FL 33157"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11954 SW 123rd Ct, Miami, FL 33186"
+        },
+        {
+          "price": 765000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5886 SW 20th St, Miami, FL 33155"
+        },
+        {
+          "price": 357000,
+          "beds": 3,
+          "baths": 2,
+          "address": "Undisclosed address, Miami, FL 33193"
+        },
+        {
+          "price": 570000,
+          "beds": 3,
+          "baths": 2,
+          "address": "16242 SW 97th Ter, Miami, FL 33196"
+        },
+        {
+          "price": 535000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11496 SW 227th Ter, Miami, FL 33170"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "19200 NE 25th Ave Unit 322C, Miami, FL 33180"
+        },
+        {
+          "price": 595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3085 NW 3rd St, Miami, FL 33125"
+        },
+        {
+          "price": 1100000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4335 SW 10th St, Miami, FL 33134"
+        },
+        {
+          "price": 580000,
+          "beds": 3,
+          "baths": 2,
+          "address": "14613 SW 155th Pl, Miami, FL 33196"
+        },
+        {
+          "price": 1574000,
+          "beds": 3,
+          "baths": 2,
+          "address": "495 Brickell Ave #3401, Miami, FL 33131"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11840 SW 171st Ter, Miami, FL 33177"
+        },
+        {
+          "price": 225000,
+          "beds": 3,
+          "baths": 2,
+          "address": "902 NE 209th St Unit 106-40, Miami, FL 33179"
+        },
+        {
+          "price": 850000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12990 SW 190th St, Miami, FL 33177"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10759 SW 7th St, Miami, FL 33174"
+        }
+      ]
+    },
+    {
+      "id": "minneapolis",
+      "name": "Minneapolis",
+      "state": "MN",
+      "medianPrice": 394450.0,
+      "sampleSize": 20,
+      "source": "https://www.redfin.com/city/10943/MN/Minneapolis/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 6,
+      "samples": [
+        {
+          "price": 500000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2121 E 22nd St, Minneapolis, MN 55404"
+        },
+        {
+          "price": 495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4911 41st Ave S, Minneapolis, MN 55417"
+        },
+        {
+          "price": 250900,
+          "beds": 3,
+          "baths": 2,
+          "address": "115 E 35th St, Minneapolis, MN 55408"
+        },
+        {
+          "price": 350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4404 33rd Ave S, Minneapolis, MN 55406"
+        },
+        {
+          "price": 500000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6032 Oliver Ave S, Minneapolis, MN 55419"
+        },
+        {
+          "price": 337900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4136 14th Ave S, Minneapolis, MN 55407"
+        },
+        {
+          "price": 550000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2410 35th Ave S, Minneapolis, MN 55406"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2727 W 43rd St #412, Minneapolis, MN 55410"
+        },
+        {
+          "price": 319900,
+          "beds": 3,
+          "baths": 2,
+          "address": "862 21st Ave SE, Minneapolis, MN 55414"
+        },
+        {
+          "price": 299900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4417 Russell Ave N, Minneapolis, MN 55412"
+        },
+        {
+          "price": 399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5124 45th Ave S, Minneapolis, MN 55417"
+        },
+        {
+          "price": 365000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2800 32nd Ave S, Minneapolis, MN 55406"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3111 Cleveland St NE, Minneapolis, MN 55418"
+        },
+        {
+          "price": 529900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2224 E 42nd St, Minneapolis, MN 55407"
+        },
+        {
+          "price": 340000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3905 Cedar Ave S, Minneapolis, MN 55407"
+        },
+        {
+          "price": 325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4840 N 6th St, Minneapolis, MN 55430"
+        },
+        {
+          "price": 389900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2820 31st Ave S, Minneapolis, MN 55406"
+        },
+        {
+          "price": 519900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4715 Wentworth Ave, Minneapolis, MN 55419"
+        },
+        {
+          "price": 629000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4212 Drew Ave S, Minneapolis, MN 55410"
+        },
+        {
+          "price": 485000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4238 Longfellow Ave, Minneapolis, MN 55407"
+        }
+      ]
+    },
+    {
+      "id": "reno",
+      "name": "Reno",
+      "state": "NV",
+      "medianPrice": 615000,
+      "sampleSize": 35,
+      "source": "https://www.redfin.com/city/15627/NV/Reno/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 6,
+      "samples": [
+        {
+          "price": 475000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17930 Clear Lake Ct, Reno, NV 89508"
+        },
+        {
+          "price": 499900,
+          "beds": 3,
+          "baths": 2,
+          "address": "914 Sauvignon Ct, Reno, NV 89506"
+        },
+        {
+          "price": 411500,
+          "beds": 3,
+          "baths": 2,
+          "address": "7642 Water View Way, Reno, NV 89511"
+        },
+        {
+          "price": 529000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1865 San Lorenzo Dr, Reno, NV 89521"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4045 Inverness Dr, Reno, NV 89502"
+        },
+        {
+          "price": 629950,
+          "beds": 3,
+          "baths": 2,
+          "address": "1750 Glen Cove Ct, Reno, NV 89521"
+        },
+        {
+          "price": 615000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10819 Oakhaven Dr, Reno, NV 89521"
+        },
+        {
+          "price": 599900,
+          "beds": 3,
+          "baths": 2,
+          "address": "10295 Lucente Way, Reno, NV 89521"
+        },
+        {
+          "price": 625000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10170 Buckeye Ct, Reno, NV 89521"
+        },
+        {
+          "price": 639500,
+          "beds": 3,
+          "baths": 2,
+          "address": "2545 Baton Dr, Reno, NV 89521"
+        },
+        {
+          "price": 660000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1630 Dutch Ravine Ct, Reno, NV 89521"
+        },
+        {
+          "price": 380000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12095 Kernite St, Reno, NV 89506"
+        },
+        {
+          "price": 465000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9548 Black Bear Dr, Reno, NV 89506"
+        },
+        {
+          "price": 499990,
+          "beds": 3,
+          "baths": 2,
+          "address": "850 Kess Way Lot 22, Reno, NV 89506"
+        },
+        {
+          "price": 869269,
+          "beds": 3,
+          "baths": 2,
+          "address": "3822 Solitary Brook Rd, Reno, NV 89521"
+        },
+        {
+          "price": 660000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10572 Fort Morgan Way, Reno, NV 89521"
+        },
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2060 Clear Acre Ln, Reno, NV 89512"
+        },
+        {
+          "price": 770072,
+          "beds": 3,
+          "baths": 2,
+          "address": "3787 Solitary Brook Rd #Homesite 2633, Reno, NV 89521"
+        },
+        {
+          "price": 825000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12745 Thomas Creek Rd, Reno, NV 89511"
+        },
+        {
+          "price": 469000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9945 Rising Sun Ct, Reno, NV 89506"
+        },
+        {
+          "price": 695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13815 Kewanna Trl, Reno, NV 89521"
+        },
+        {
+          "price": 700000,
+          "beds": 3,
+          "baths": 2,
+          "address": "611 Nixon Ave, Reno, NV 89509"
+        },
+        {
+          "price": 645000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10639 Fire Poppy Cir, Reno, NV 89521"
+        },
+        {
+          "price": 680000,
+          "beds": 3,
+          "baths": 2,
+          "address": "270 River Flow Dr, Reno, NV 89523"
+        },
+        {
+          "price": 479000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4799 Arbor Ridge Dr, Reno, NV 89523"
+        },
+        {
+          "price": 434000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17865 Georgetown Dr, Reno, NV 89508"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "305 Rowel Cir, Reno, NV 89508"
+        },
+        {
+          "price": 370000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1291 Rayburn Dr, Reno, NV 89503"
+        },
+        {
+          "price": 489900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2195 Prince Way, Reno, NV 89503"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "14055 Kernite St, Reno, NV 89506"
+        },
+        {
+          "price": 595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2348 Clementine Ln, Reno, NV 89521"
+        },
+        {
+          "price": 659000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1615 Heavenly View Trl, Reno, NV 89523"
+        },
+        {
+          "price": 645000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4090 W 7th St, Reno, NV 89503"
+        },
+        {
+          "price": 748888,
+          "beds": 3,
+          "baths": 2,
+          "address": "3055 Greensburg Cir, Reno, NV 89509"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "17585 Fantail St, Reno, NV 89508"
+        }
+      ]
+    },
+    {
+      "id": "jackson",
+      "name": "Jackson",
+      "state": "WY",
+      "medianPrice": 1775000.0,
+      "sampleSize": 10,
+      "source": "https://www.redfin.com/city/10231/WY/Jackson/3-bedroom-2-bath",
+      "sourceCrawl": "last month",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 1,
+      "samples": [
+        {
+          "price": 249000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7250 Us-89 #24, Jackson, WY 83001"
+        },
+        {
+          "price": 1350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1655 E J-w Dr, Jackson, WY 83001"
+        },
+        {
+          "price": 2475000,
+          "beds": 3,
+          "baths": 2,
+          "address": "520 E Simpson Ave, Jackson, WY 83001"
+        },
+        {
+          "price": 4900000,
+          "beds": 3,
+          "baths": 2,
+          "address": "555 N Ridge View Dr, Jackson, WY 83001"
+        },
+        {
+          "price": 2850000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2050 E Snowberry Rd, Jackson, WY 83001"
+        },
+        {
+          "price": 220000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7250 S U.s. 89 #72, Jackson, WY 83001"
+        },
+        {
+          "price": 5580000,
+          "beds": 3,
+          "baths": 2,
+          "address": "270 N Bar Y Rd, Jackson, WY 83001"
+        },
+        {
+          "price": 1295000,
+          "beds": 3,
+          "baths": 2,
+          "address": "360 E Simpson Ave #20, Jackson, WY 83001"
+        },
+        {
+          "price": 2200000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4085 Balsam Ln, Jackson, WY 83001"
+        },
+        {
+          "price": 150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7250 S US Hwy 89 #4, Jackson, WY 83001"
+        }
+      ]
+    },
+    {
+      "id": "bozeman",
+      "name": "Bozeman",
+      "state": "MT",
+      "medianPrice": 599000,
+      "sampleSize": 29,
+      "source": "https://www.redfin.com/city/2317/MT/Bozeman/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 3,
+      "samples": [
+        {
+          "price": 595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2430 Ferguson Ave, Bozeman, MT 59718"
+        },
+        {
+          "price": 825000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5416 Glenkirk Dr, Bozeman, MT 59718"
+        },
+        {
+          "price": 695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "194 Slough Creek Dr, Bozeman, MT 59718"
+        },
+        {
+          "price": 499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "33 Naomi Rose Ln Unit A, Bozeman, MT 59718"
+        },
+        {
+          "price": 950000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3212 Augusta Dr, Bozeman, MT 59715"
+        },
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "213 S 3rd Ave, Bozeman, MT 59715"
+        },
+        {
+          "price": 720000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3367 S 21st Ave, Bozeman, MT 59718"
+        },
+        {
+          "price": 485000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10 S Yellowstone St #19, Bozeman, MT 59718"
+        },
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "90 Ridgeline Ln, Bozeman, MT 59718"
+        },
+        {
+          "price": 675000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5589 Vaughn Dr, Bozeman, MT 59718"
+        },
+        {
+          "price": 99000,
+          "beds": 3,
+          "baths": 2,
+          "address": "87 Bedivere Blvd, Bozeman, MT 59718"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3108 Oliver St, Bozeman, MT 59718"
+        },
+        {
+          "price": 595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "738 N Aster Ave, Bozeman, MT 59718"
+        },
+        {
+          "price": 554000,
+          "beds": 3,
+          "baths": 2,
+          "address": "914 N 15th Ave, Bozeman, MT 59715"
+        },
+        {
+          "price": 365000,
+          "beds": 3,
+          "baths": 2,
+          "address": "877 Forestglen Dr Unit 5H, Bozeman, MT 59718"
+        },
+        {
+          "price": 599950,
+          "beds": 3,
+          "baths": 2,
+          "address": "96 Thatch Wood Ln, Bozeman, MT 59718"
+        },
+        {
+          "price": 1150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "114 N Grand Ave, Bozeman, MT 59715"
+        },
+        {
+          "price": 629900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4662 Glenwood Dr, Bozeman, MT 59718"
+        },
+        {
+          "price": 749900,
+          "beds": 3,
+          "baths": 2,
+          "address": "51 E Kimberly Ct, Bozeman, MT 59718"
+        },
+        {
+          "price": 84900,
+          "beds": 3,
+          "baths": 2,
+          "address": "108 Percival Path, Bozeman, MT 59718"
+        },
+        {
+          "price": 545000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2603 Daffodil St, Bozeman, MT 59718"
+        },
+        {
+          "price": 102000,
+          "beds": 3,
+          "baths": 2,
+          "address": "890 Hidden Valley Rd, Bozeman, MT 59718"
+        },
+        {
+          "price": 749900,
+          "beds": 3,
+          "baths": 2,
+          "address": "80455 Gallatin Rd, Bozeman, MT 59718"
+        },
+        {
+          "price": 660000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1234 Hunters Way, Bozeman, MT 59718"
+        },
+        {
+          "price": 449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "49 Michael Grove Ave, Bozeman, MT 59718"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "406 N Teton Ave, Bozeman, MT 59718"
+        },
+        {
+          "price": 574900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3935 Baxter Ln E, Bozeman, MT 59718"
+        },
+        {
+          "price": 580000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4448 Shadowglen Dr, Bozeman, MT 59718"
+        },
+        {
+          "price": 590000,
+          "beds": 3,
+          "baths": 2,
+          "address": "170 Chestnut Grove Ave, Bozeman, MT 59718"
+        }
+      ]
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "state": "AZ",
+      "medianPrice": 450000,
+      "sampleSize": 39,
+      "source": "https://www.redfin.com/city/14240/AZ/Phoenix/3-bedroom-2-bath",
+      "sourceCrawl": "6 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 33,
+      "samples": [
+        {
+          "price": 649000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4002 N 32nd Pl, Phoenix, AZ 85018"
+        },
+        {
+          "price": 575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7008 N 14th Pl, Phoenix, AZ 85020"
+        },
+        {
+          "price": 329900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4708 E La Salle St, Phoenix, AZ 85040"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3801 W Mercer Ln, Phoenix, AZ 85029"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12629 N 28th Way, Phoenix, AZ 85032"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3638 W Krall St, Phoenix, AZ 85019"
+        },
+        {
+          "price": 430000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2001 E Hillery Dr, Phoenix, AZ 85022"
+        },
+        {
+          "price": 310000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2739 E Beverly Ln, Phoenix, AZ 85032"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1201 W Rancho Dr, Phoenix, AZ 85013"
+        },
+        {
+          "price": 665000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4150 E Cannon Dr, Phoenix, AZ 85028"
+        },
+        {
+          "price": 430000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10913 W Sells Dr, Phoenix, AZ 85037"
+        },
+        {
+          "price": 290000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2133 W Monroe St, Phoenix, AZ 85009"
+        },
+        {
+          "price": 399500,
+          "beds": 3,
+          "baths": 2,
+          "address": "3007 W Zachary Dr, Phoenix, AZ 85027"
+        },
+        {
+          "price": 200000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5012 S 35th Dr, Phoenix, AZ 85041"
+        },
+        {
+          "price": 235000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17446 N 8th Ave, Phoenix, AZ 85023"
+        },
+        {
+          "price": 380000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9608 N 16th Pl, Phoenix, AZ 85020"
+        },
+        {
+          "price": 480000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4604 E Piedmont Rd E, Phoenix, AZ 85044"
+        },
+        {
+          "price": 419000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4261 E Yawepe St, Phoenix, AZ 85044"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1531 E Winged Foot Rd, Phoenix, AZ 85022"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1326 W Roosevelt St, Phoenix, AZ 85007"
+        },
+        {
+          "price": 795000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4643 E Monterosa St, Phoenix, AZ 85018"
+        },
+        {
+          "price": 595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1217 W Solano Dr, Phoenix, AZ 85013"
+        },
+        {
+          "price": 379900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3633 N 3rd Ave #2031, Phoenix, AZ 85013"
+        },
+        {
+          "price": 499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3992 N 14th St, Phoenix, AZ 85014"
+        },
+        {
+          "price": 449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1626 W Taylor St, Phoenix, AZ 85007"
+        },
+        {
+          "price": 510000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3133 N 21st St, Phoenix, AZ 85016"
+        },
+        {
+          "price": 1275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3055 E Marlette Ave, Phoenix, AZ 85016"
+        },
+        {
+          "price": 958000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4421 E Monterosa St, Phoenix, AZ 85018"
+        },
+        {
+          "price": 465000,
+          "beds": 3,
+          "baths": 2,
+          "address": "15440 N 34th St, Phoenix, AZ 85032"
+        },
+        {
+          "price": 690000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1325 E Avalon Dr, Phoenix, AZ 85014"
+        },
+        {
+          "price": 490000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4319 E Sacaton St, Phoenix, AZ 85044"
+        },
+        {
+          "price": 429000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4518 N 9th Ave, Phoenix, AZ 85013"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1802 E Missouri Ave, Phoenix, AZ 85016"
+        },
+        {
+          "price": 495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17227 N 34th Way, Phoenix, AZ 85032"
+        },
+        {
+          "price": 360000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3350 W Rose Garden Ln, Phoenix, AZ 85027"
+        },
+        {
+          "price": 479900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4237 E Morrow Dr, Phoenix, AZ 85050"
+        },
+        {
+          "price": 300000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6011 N 32nd Dr, Phoenix, AZ 85017"
+        },
+        {
+          "price": 950000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1837 E Marilyn Rd, Phoenix, AZ 85022"
+        },
+        {
+          "price": 355000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2230 W Morten Ave, Phoenix, AZ 85021"
+        }
+      ]
+    },
+    {
+      "id": "tucson",
+      "name": "Tucson",
+      "state": "AZ",
+      "medianPrice": 325000,
+      "sampleSize": 39,
+      "source": "https://www.redfin.com/city/19459/AZ/Tucson/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 25,
+      "samples": [
+        {
+          "price": 339900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2357 W Silverbell Tree Dr, Tucson, AZ 85745"
+        },
+        {
+          "price": 575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1931 W Imuris Pl, Tucson, AZ 85704"
+        },
+        {
+          "price": 78000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3411 S Camino Seco -- #352, Tucson, AZ 85730"
+        },
+        {
+          "price": 299900,
+          "beds": 3,
+          "baths": 2,
+          "address": "5810 S Joseph Ave, Tucson, AZ 85757"
+        },
+        {
+          "price": 320000,
+          "beds": 3,
+          "baths": 2,
+          "address": "60916 E Cantle Ct, Tucson, AZ 85739"
+        },
+        {
+          "price": 325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "39335 S Old Arena Dr, Tucson, AZ 85739"
+        },
+        {
+          "price": 320000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6324 W Velvet Senna Dr, Tucson, AZ 85757"
+        },
+        {
+          "price": 409950,
+          "beds": 3,
+          "baths": 2,
+          "address": "15153 N Pelham Rd, Tucson, AZ 85739"
+        },
+        {
+          "price": 325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3625 E Drexel Manor Stra, Tucson, AZ 85706"
+        },
+        {
+          "price": 368000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6771 S Camino Catalan, Tucson, AZ 85757"
+        },
+        {
+          "price": 409500,
+          "beds": 3,
+          "baths": 2,
+          "address": "10386 E Vail Trap Spring Ct, Tucson, AZ 85748"
+        },
+        {
+          "price": 549900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2570 W Ben Hogan Dr, Tucson, AZ 85742"
+        },
+        {
+          "price": 184400,
+          "beds": 3,
+          "baths": 2,
+          "address": "1013 E Halcyon Rd, Tucson, AZ 85719"
+        },
+        {
+          "price": 184400,
+          "beds": 3,
+          "baths": 2,
+          "address": "1009 E Halcyon Rd, Tucson, AZ 85719"
+        },
+        {
+          "price": 275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8544 E Desert Retreat Ct, Tucson, AZ 85730"
+        },
+        {
+          "price": 335000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7159 E Cherrywood St, Tucson, AZ 85756"
+        },
+        {
+          "price": 495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2655 N Sahuara Pl, Tucson, AZ 85712"
+        },
+        {
+          "price": 269900,
+          "beds": 3,
+          "baths": 2,
+          "address": "7494 S Salt Water Dr, Tucson, AZ 85757"
+        },
+        {
+          "price": 338833,
+          "beds": 3,
+          "baths": 2,
+          "address": "8580 W Amazilia Pl, Tucson, AZ 85757"
+        },
+        {
+          "price": 299000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5757 N Avra Rd, Tucson, AZ 85743"
+        },
+        {
+          "price": 279000,
+          "beds": 3,
+          "baths": 2,
+          "address": "227 W Glenn St, Tucson, AZ 85705"
+        },
+        {
+          "price": 310000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8403 S Otis Dr, Tucson, AZ 85747"
+        },
+        {
+          "price": 430000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5174 S Emma Ct, Tucson, AZ 85747"
+        },
+        {
+          "price": 494000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10414 E Jarod James Pl, Tucson, AZ 85747"
+        },
+        {
+          "price": 395000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5855 N Kolb Rd #11207, Tucson, AZ 85750"
+        },
+        {
+          "price": 285000,
+          "beds": 3,
+          "baths": 2,
+          "address": "217 E Placita De Los Aviones, Tucson, AZ 85706"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10688 E Sanctuary Ridge Ln, Tucson, AZ 85747"
+        },
+        {
+          "price": 302990,
+          "beds": 3,
+          "baths": 2,
+          "address": "7006 W Joycliff Way, Tucson, AZ 85757"
+        },
+        {
+          "price": 290990,
+          "beds": 3,
+          "baths": 2,
+          "address": "6998 W Joycliff Way, Tucson, AZ 85757"
+        },
+        {
+          "price": 285990,
+          "beds": 3,
+          "baths": 2,
+          "address": "7003 W Joycliff Way, Tucson, AZ 85757"
+        },
+        {
+          "price": 299990,
+          "beds": 3,
+          "baths": 2,
+          "address": "6991 W Joycliff Way, Tucson, AZ 85757"
+        },
+        {
+          "price": 405000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6383 W Sugar Pine Trl, Tucson, AZ 85743"
+        },
+        {
+          "price": 365000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7048 N Northlight Dr, Tucson, AZ 85741"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7086 N Avenida Adella, Tucson, AZ 85741"
+        },
+        {
+          "price": 372000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3113 W Corte Olivia, Tucson, AZ 85741"
+        },
+        {
+          "price": 309950,
+          "beds": 3,
+          "baths": 2,
+          "address": "2773 W Via Del Santo, Tucson, AZ 85741"
+        },
+        {
+          "price": 285000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2812 W Calle Ocio, Tucson, AZ 85741"
+        },
+        {
+          "price": 515000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3960 W El Camino Del Cerro, Tucson, AZ 85745"
+        },
+        {
+          "price": 199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3531 W Grape Dr, Tucson, AZ 85741"
+        }
+      ]
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "state": "NV",
+      "medianPrice": 399900.0,
+      "sampleSize": 42,
+      "source": "https://www.redfin.com/city/10201/NV/Las-Vegas/3-bedroom-2-bath",
+      "sourceCrawl": "3 weeks ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 46,
+      "samples": [
+        {
+          "price": 600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1303 Dressen Ave, Las Vegas, NV 89123"
+        },
+        {
+          "price": 320000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1012 Domnus Ln #102, Las Vegas, NV 89144"
+        },
+        {
+          "price": 420000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2687 Pavehawk Way, Las Vegas, NV 89156"
+        },
+        {
+          "price": 398900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2066 Glistening Sands Dr, Las Vegas, NV 89119"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7142 Bold Rock Ave, Las Vegas, NV 89113"
+        },
+        {
+          "price": 350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1604 Lewis Ave, Las Vegas, NV 89101"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "100 Underhill Ct, Las Vegas, NV 89145"
+        },
+        {
+          "price": 389900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3621 Fortune Ave, Las Vegas, NV 89107"
+        },
+        {
+          "price": 559000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4132 Sinew Ct, Las Vegas, NV 89129"
+        },
+        {
+          "price": 369888,
+          "beds": 3,
+          "baths": 2,
+          "address": "Undisclosed address, Las Vegas, NV 89156"
+        },
+        {
+          "price": 127000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1405 Vegas Valley Dr #162, Las Vegas, NV 89169"
+        },
+        {
+          "price": 499900,
+          "beds": 3,
+          "baths": 2,
+          "address": "10049 Claverton Ct, Las Vegas, NV 89148"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "7192 Mizzen Ct, Las Vegas, NV 89147"
+        },
+        {
+          "price": 974888,
+          "beds": 3,
+          "baths": 2,
+          "address": "2824 Shannon River Dr, Las Vegas, NV 89117"
+        },
+        {
+          "price": 725000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2597 Belgreen St, Las Vegas, NV 89135"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6249 Saginaw Dr, Las Vegas, NV 89108"
+        },
+        {
+          "price": 244900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4529 Halbert Ave, Las Vegas, NV 89110"
+        },
+        {
+          "price": 237500,
+          "beds": 3,
+          "baths": 2,
+          "address": "720 Kasper Ave, Las Vegas, NV 89106"
+        },
+        {
+          "price": 555500,
+          "beds": 3,
+          "baths": 2,
+          "address": "8560 Rancho Destino Rd, Las Vegas, NV 89123"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "5123 Opal Crest Ave, Las Vegas, NV 89131"
+        },
+        {
+          "price": 550000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8000 Edward Baher Ave, Las Vegas, NV 89149"
+        },
+        {
+          "price": 310000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3065 Conquista Ct, Las Vegas, NV 89121"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3922 Welsh Pony St, Las Vegas, NV 89122"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6576 Goldencreek Way, Las Vegas, NV 89108"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9624 Sterling Ridge Ave, Las Vegas, NV 89129"
+        },
+        {
+          "price": 410000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3735 White Ivory Ct, Las Vegas, NV 89147"
+        },
+        {
+          "price": 265000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6777 Ledgewood Dr, Las Vegas, NV 89103"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "2302 Wagonwheel Ave, Las Vegas, NV 89119"
+        },
+        {
+          "price": 799250,
+          "beds": 3,
+          "baths": 2,
+          "address": "2825 Billy Casper Dr, Las Vegas, NV 89134"
+        },
+        {
+          "price": 414900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3312 Sturbridge Cir, Las Vegas, NV 89129"
+        },
+        {
+          "price": 415000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8144 Cactus Flower Ct, Las Vegas, NV 89145"
+        },
+        {
+          "price": 350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3352 Kaniksu Ct, Las Vegas, NV 89122"
+        },
+        {
+          "price": 350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5397 Blue Oat Ave, Las Vegas, NV 89141"
+        },
+        {
+          "price": 475000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9803 Frosty Canyon Ct, Las Vegas, NV 89183"
+        },
+        {
+          "price": 449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1504 Remembrance Hill St, Las Vegas, NV 89144"
+        },
+        {
+          "price": 365000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5909 Silver Heights St, Las Vegas, NV 89130"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7852 Morning Flower Ln, Las Vegas, NV 89129"
+        },
+        {
+          "price": 400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2009 N Michael Way, Las Vegas, NV 89108"
+        },
+        {
+          "price": 535000,
+          "beds": 3,
+          "baths": 2,
+          "address": "886 Cline Cellars Ave, Las Vegas, NV 89123"
+        },
+        {
+          "price": 419900,
+          "beds": 3,
+          "baths": 2,
+          "address": "7157 Sixshooter Dr, Las Vegas, NV 89119"
+        },
+        {
+          "price": 299999,
+          "beds": 3,
+          "baths": 2,
+          "address": "3066 Conquista Ct, Las Vegas, NV 89121"
+        },
+        {
+          "price": 399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8421 Bay Crest Dr, Las Vegas, NV 89128"
+        }
+      ]
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "state": "MA",
+      "medianPrice": 799000,
+      "sampleSize": 37,
+      "source": "https://www.redfin.com/city/1826/MA/Boston/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 5,
+      "samples": [
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "45 Bonair St, West Roxbury, MA 02132"
+        },
+        {
+          "price": 578000,
+          "beds": 3,
+          "baths": 2,
+          "address": "160 Newton St #3, Brighton, MA 02135"
+        },
+        {
+          "price": 775000,
+          "beds": 3,
+          "baths": 2,
+          "address": "224 Turtle Pond Pkwy, Hyde Park, MA 02136"
+        },
+        {
+          "price": 639000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3 Old Morton St, Mattapan, MA 02126"
+        },
+        {
+          "price": 850000,
+          "beds": 3,
+          "baths": 2,
+          "address": "18 Yale Ter #1, Jamaica Plain, MA 02130"
+        },
+        {
+          "price": 829900,
+          "beds": 3,
+          "baths": 2,
+          "address": "252 Webster St #1, East Boston, MA 02128"
+        },
+        {
+          "price": 749900,
+          "beds": 3,
+          "baths": 2,
+          "address": "141 Nottinghill Rd #2, Brighton, MA 02135"
+        },
+        {
+          "price": 799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3247 Washington #3, Boston, MA 02130"
+        },
+        {
+          "price": 1075000,
+          "beds": 3,
+          "baths": 2,
+          "address": "98 G St #4, South Boston, MA 02127"
+        },
+        {
+          "price": 789900,
+          "beds": 3,
+          "baths": 2,
+          "address": "46 Everett St #2, East Boston, MA 02128"
+        },
+        {
+          "price": 849999,
+          "beds": 3,
+          "baths": 2,
+          "address": "152 Washington St #3, Boston, MA 02135"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "71 Savin St #3, Boston, MA 02119"
+        },
+        {
+          "price": 849999,
+          "beds": 3,
+          "baths": 2,
+          "address": "152 Washington St #2, Boston, MA 02135"
+        },
+        {
+          "price": 1256000,
+          "beds": 3,
+          "baths": 2,
+          "address": "27 Kenilworth St #9, Roxbury, MA 02119"
+        },
+        {
+          "price": 978000,
+          "beds": 3,
+          "baths": 2,
+          "address": "27 Kenilworth St #6, Roxbury, MA 02119"
+        },
+        {
+          "price": 949000,
+          "beds": 3,
+          "baths": 2,
+          "address": "107 Woodley Ave, West Roxbury, MA 02132"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9 Crossman St, Mattapan, MA 02126"
+        },
+        {
+          "price": 559000,
+          "beds": 3,
+          "baths": 2,
+          "address": "199 E Cottage St #1, Dorchester, MA 02125"
+        },
+        {
+          "price": 320000,
+          "beds": 3,
+          "baths": 2,
+          "address": "640 Morton #2, Mattapan, MA 02126"
+        },
+        {
+          "price": 825000,
+          "beds": 3,
+          "baths": 2,
+          "address": "111 Sheridan St #2, Jamaica Plain, MA 02130"
+        },
+        {
+          "price": 999000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1646 Centre St, Boston, MA 02132"
+        },
+        {
+          "price": 799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "340 Beech St, Roslindale, MA 02131"
+        },
+        {
+          "price": 1449000,
+          "beds": 3,
+          "baths": 2,
+          "address": "19 Stanhope Unit 1C, Boston, MA 02116"
+        },
+        {
+          "price": 1125000,
+          "beds": 3,
+          "baths": 2,
+          "address": "77 Spring Park Ave #3, Jamaica Plain, MA 02130"
+        },
+        {
+          "price": 1695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "322 Bunker Hill St #3, Charlestown, MA 02129"
+        },
+        {
+          "price": 570000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13 Bird St #1, Dorchester, MA 02125"
+        },
+        {
+          "price": 1049000,
+          "beds": 3,
+          "baths": 2,
+          "address": "26 Newbern #26, Jamaica Plain, MA 02130"
+        },
+        {
+          "price": 1695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "45 Saint Botolph St Ph 204, Boston, MA 02116"
+        },
+        {
+          "price": 1095000,
+          "beds": 3,
+          "baths": 2,
+          "address": "20 March Ave, West Roxbury, MA 02132"
+        },
+        {
+          "price": 629900,
+          "beds": 3,
+          "baths": 2,
+          "address": "574 Lagrange St #574, West Roxbury, MA 02132"
+        },
+        {
+          "price": 899000,
+          "beds": 3,
+          "baths": 2,
+          "address": "32 Vfw Pkwy, West Roxbury, MA 02467"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "29 Pinecliff Rd #29, Boston, MA 02132"
+        },
+        {
+          "price": 1499000,
+          "beds": 3,
+          "baths": 2,
+          "address": "322 Bunker Hill St #2, Charlestown, MA 02129"
+        },
+        {
+          "price": 640000,
+          "beds": 3,
+          "baths": 2,
+          "address": "87 Dix St #3, Dorchester, MA 02122"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "285 Minot St #2, Dorchester, MA 02124"
+        },
+        {
+          "price": 599999,
+          "beds": 3,
+          "baths": 2,
+          "address": "14 Schuyler #3, Boston, MA 02121"
+        },
+        {
+          "price": 689000,
+          "beds": 3,
+          "baths": 2,
+          "address": "25 Ridlon Rd, Hyde Park, MA 02136"
+        }
+      ],
+      "cityAliases": [
+        "Boston",
+        "Allston",
+        "Brighton",
+        "Charlestown",
+        "Dorchester",
+        "Dorchester Center",
+        "East Boston",
+        "Hyde Park",
+        "Jamaica Plain",
+        "Mattapan",
+        "Roslindale",
+        "Roxbury",
+        "South Boston",
+        "West Roxbury"
+      ],
+      "cityAliasesSource": "https://www.boston.gov/neighborhoods"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "state": "CA",
+      "medianPrice": 1289000,
+      "sampleSize": 21,
+      "source": "https://www.redfin.com/city/11203/CA/Los-Angeles/3-bedroom-2-bath",
+      "sourceCrawl": "3 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 22,
+      "samples": [
+        {
+          "price": 1175000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1933 W Kingston Pl, Los Angeles, CA 90026"
+        },
+        {
+          "price": 850000,
+          "beds": 3,
+          "baths": 2,
+          "address": "877 Montecito Dr, Los Angeles, CA 90031"
+        },
+        {
+          "price": 990000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2216 N Indiana Ave, Los Angeles, CA 90032"
+        },
+        {
+          "price": 949000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3095 George St, Los Angeles, CA 90031"
+        },
+        {
+          "price": 1129000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3639 Roderick Rd, Los Angeles, CA 90065"
+        },
+        {
+          "price": 1849000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4016 Cumberland Ave, Los Angeles, CA 90027"
+        },
+        {
+          "price": 1999999,
+          "beds": 3,
+          "baths": 2,
+          "address": "3945 Lyceum Ave, Los Angeles, CA 90066"
+        },
+        {
+          "price": 1495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3126 Oakcrest Dr, Los Angeles, CA 90068"
+        },
+        {
+          "price": 645000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1328 W 122nd St, Los Angeles, CA 90044"
+        },
+        {
+          "price": 1699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11810 Radio Dr, Los Angeles, CA 90064"
+        },
+        {
+          "price": 999999,
+          "beds": 3,
+          "baths": 2,
+          "address": "3327 Minto Ct, Los Angeles, CA 90032"
+        },
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5832 S Van Ness Ave, Los Angeles, CA 90047"
+        },
+        {
+          "price": 2995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "428 S Gretna Green Way, Los Angeles, CA 90049"
+        },
+        {
+          "price": 1198700,
+          "beds": 3,
+          "baths": 2,
+          "address": "838 Colorado Blvd, Los Angeles, CA 90041"
+        },
+        {
+          "price": 1600000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2856 Nichols Canyon Rd, Los Angeles, CA 90046"
+        },
+        {
+          "price": 1598000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1315 Mccollum St, Los Angeles, CA 90026"
+        },
+        {
+          "price": 1799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8266 Clinton St, Los Angeles, CA 90048"
+        },
+        {
+          "price": 1350000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2016 Fair Park Ave, Los Angeles, CA 90041"
+        },
+        {
+          "price": 1395000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7122 Glasgow Ave, Los Angeles, CA 90045"
+        },
+        {
+          "price": 1250000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4787 Rock Row Dr, Los Angeles, CA 90041"
+        },
+        {
+          "price": 1289000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3950 Westside Ave, Los Angeles, CA 90008"
+        }
+      ]
+    },
+    {
+      "id": "santa-barbara",
+      "name": "Santa Barbara",
+      "state": "CA",
+      "medianPrice": 1825000,
+      "sampleSize": 29,
+      "source": "https://www.redfin.com/city/17669/CA/Santa-Barbara/3-bedroom-2-bath",
+      "sourceCrawl": "3 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 1,
+      "samples": [
+        {
+          "price": 1795000,
+          "beds": 3,
+          "baths": 2,
+          "address": "16 San Marcos Trout Clb, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1795000,
+          "beds": 3,
+          "baths": 2,
+          "address": "16 San Marcos Trout, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1595000,
+          "beds": 3,
+          "baths": 2,
+          "address": "835 Cheltenham Rd, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 2995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3141 Calle Fresno, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1285000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1930 N Jameson Ln #B, Santa Barbara, CA 93108"
+        },
+        {
+          "price": 1275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "106 La Cumbre Cir, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2662 Montrose Pl, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1900000,
+          "beds": 3,
+          "baths": 2,
+          "address": "700 Chiquita Rd, Santa Barbara, CA 93103"
+        },
+        {
+          "price": 1980000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2016 Monterey St, Santa Barbara, CA 93101"
+        },
+        {
+          "price": 1699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1014 E Ortega St, Santa Barbara, CA 93103"
+        },
+        {
+          "price": 1695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "535 De la Vista Ave, Santa Barbara, CA 93103"
+        },
+        {
+          "price": 2950000,
+          "beds": 3,
+          "baths": 2,
+          "address": "118 Eucalyptus Hill Cir, Santa Barbara, CA 93103"
+        },
+        {
+          "price": 2685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3091 Calle Rosales, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 2750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2688 Dorking Pl, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "50 Barranca Ave #7, Santa Barbara, CA 93109"
+        },
+        {
+          "price": 1825000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4550 Carriage Hill Dr, Santa Barbara, CA 93110"
+        },
+        {
+          "price": 2495000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1440 Portesuello Ave, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3899 Cinco Amigos, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 3100000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1428 Manitou Rd, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1095000,
+          "beds": 3,
+          "baths": 2,
+          "address": "63 N San Marcos Rd #A, Santa Barbara, CA 93111"
+        },
+        {
+          "price": 2650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2505 Murrell Rd, Santa Barbara, CA 93109"
+        },
+        {
+          "price": 3649000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1590 San Roque Rd, Santa Barbara, CA 93105"
+        },
+        {
+          "price": 1325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "775 Avenida Pequena, Santa Barbara, CA 93111"
+        },
+        {
+          "price": 2120000,
+          "beds": 3,
+          "baths": 2,
+          "address": "767 Juanita, Santa Barbara, CA 93109"
+        },
+        {
+          "price": 5750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2200 Bella Vista Dr, Santa Barbara, CA 93108"
+        },
+        {
+          "price": 3950000,
+          "beds": 3,
+          "baths": 2,
+          "address": "526 San Ysidro Rd #A, Santa Barbara, CA 93108"
+        },
+        {
+          "price": 2995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "395 Loma Media Rd, Santa Barbara, CA 93103"
+        },
+        {
+          "price": 1680000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1940 N Jameson Ln #A, Santa Barbara, CA 93108"
+        },
+        {
+          "price": 1695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3532 San Pablo Ln, Santa Barbara, CA 93105"
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "state": "CA",
+      "medianPrice": 1098000,
+      "sampleSize": 37,
+      "source": "https://www.redfin.com/city/16904/CA/San-Diego/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 9,
+      "samples": [
+        {
+          "price": 1300000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4865 33rd St, San Diego, CA 92116"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5627 Shaw St, San Diego, CA 92139"
+        },
+        {
+          "price": 1069000,
+          "beds": 3,
+          "baths": 2,
+          "address": "14830 Del Diablo Ln, San Diego, CA 92129"
+        },
+        {
+          "price": 1575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3559 Villa Ter, San Diego, CA 92104"
+        },
+        {
+          "price": 739000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1659 Sherbrooke St, San Diego, CA 92139"
+        },
+        {
+          "price": 1379000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6111 Del Cerro Blvd, San Diego, CA 92120"
+        },
+        {
+          "price": 949800,
+          "beds": 3,
+          "baths": 2,
+          "address": "10971 Martinique Way, San Diego, CA 92126"
+        },
+        {
+          "price": 739000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1761 Olamar Way, San Diego, CA 92139"
+        },
+        {
+          "price": 1165000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4689 Tonopah Ave, San Diego, CA 92110"
+        },
+        {
+          "price": 1175000,
+          "beds": 3,
+          "baths": 2,
+          "address": "17506 Plaza Karena, San Diego, CA 92128"
+        },
+        {
+          "price": 1399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3712 Bancroft St, San Diego, CA 92104"
+        },
+        {
+          "price": 799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6568 Radio Dr, San Diego, CA 92114"
+        },
+        {
+          "price": 1125000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12226 Casero Ct, San Diego, CA 92128"
+        },
+        {
+          "price": 695000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3139 Winlow St, San Diego, CA 92105"
+        },
+        {
+          "price": 1495999,
+          "beds": 3,
+          "baths": 2,
+          "address": "4012 Mount Brundage, San Diego, CA 92111"
+        },
+        {
+          "price": 1149000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8837 Betelgeuse Way, San Diego, CA 92126"
+        },
+        {
+          "price": 950000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6250 Lake Arrowhead Dr, San Diego, CA 92119"
+        },
+        {
+          "price": 1150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "15582 Walton Heath Row, San Diego, CA 92128"
+        },
+        {
+          "price": 549900,
+          "beds": 3,
+          "baths": 2,
+          "address": "17129 W Bernardo Dr #201, San Diego, CA 92127"
+        },
+        {
+          "price": 1399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "13820 Etude Rd, San Diego, CA 92128"
+        },
+        {
+          "price": 1098000,
+          "beds": 3,
+          "baths": 2,
+          "address": "18228 Via Guadalmina, San Diego, CA 92128"
+        },
+        {
+          "price": 1199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5565 Mount Aconia Way, San Diego, CA 92111"
+        },
+        {
+          "price": 1400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3754 Alabama St, San Diego, CA 92104"
+        },
+        {
+          "price": 789000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12655 Savannah Creek Dr #249, San Diego, CA 92128"
+        },
+        {
+          "price": 1289900,
+          "beds": 3,
+          "baths": 2,
+          "address": "12602 Senda Acantilada, San Diego, CA 92128"
+        },
+        {
+          "price": 1250000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8330 Beaver Lake Dr, San Diego, CA 92119"
+        },
+        {
+          "price": 799999,
+          "beds": 3,
+          "baths": 2,
+          "address": "2346 Saipan Dri St, San Diego, CA 92139"
+        },
+        {
+          "price": 2150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1610 Felton St, San Diego, CA 92102"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6954 Ballinger, San Diego, CA 92119"
+        },
+        {
+          "price": 1249000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1527 9th Ave, San Diego, CA 92101"
+        },
+        {
+          "price": 659000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6660 Reservoir Ln, San Diego, CA 92115"
+        },
+        {
+          "price": 800000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12056 Caminito Campana, San Diego, CA 92128"
+        },
+        {
+          "price": 835000,
+          "beds": 3,
+          "baths": 2,
+          "address": "832 Reef Dr, San Diego, CA 92154"
+        },
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "969 Shady Elm Pl, San Diego, CA 92154"
+        },
+        {
+          "price": 1099900,
+          "beds": 3,
+          "baths": 2,
+          "address": "4581 Chinook Ct, San Diego, CA 92117"
+        },
+        {
+          "price": 948000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4227 College Ave, San Diego, CA 92115"
+        },
+        {
+          "price": 829900,
+          "beds": 3,
+          "baths": 2,
+          "address": "850 Beech St #511, San Diego, CA 92101"
+        }
+      ]
+    },
+    {
+      "id": "salt-lake-city",
+      "name": "Salt Lake City",
+      "state": "UT",
+      "medianPrice": 569000,
+      "sampleSize": 35,
+      "source": "https://www.redfin.com/city/17150/UT/Salt-Lake-City/3-bedroom-2-bath",
+      "sourceCrawl": "last month",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 3,
+      "samples": [
+        {
+          "price": 599900,
+          "beds": 3,
+          "baths": 2,
+          "address": "911 E Malvern Ave, Salt Lake City, UT 84106"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6103 S Aries Dr, Salt Lake City, UT 84118"
+        },
+        {
+          "price": 420000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1174 W 300 N, Salt Lake City, UT 84116"
+        },
+        {
+          "price": 409900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1053 W Euclid Ave, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5451 W Red Lodge Dr, Salt Lake City, UT 84118"
+        },
+        {
+          "price": 374995,
+          "beds": 3,
+          "baths": 2,
+          "address": "170 E Belmont Ave #24, Salt Lake City, UT 84111"
+        },
+        {
+          "price": 675000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2887 S 700 E, Salt Lake City, UT 84106"
+        },
+        {
+          "price": 785000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5080 S Del Rio St Unit E006, Salt Lake City, UT 84117"
+        },
+        {
+          "price": 570000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4116 S 1500 E, Salt Lake City, UT 84124"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5545 Westslope Dr, Salt Lake City, UT 84118"
+        },
+        {
+          "price": 975000,
+          "beds": 3,
+          "baths": 2,
+          "address": "960 E Yale Ave S, Salt Lake City, UT 84105"
+        },
+        {
+          "price": 995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1564 E Princeton Ave, Salt Lake City, UT 84105"
+        },
+        {
+          "price": 865000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1655 E Roosevelt Ave, Salt Lake City, UT 84105"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "234 E 100 S Unit D4, Salt Lake City, UT 84111"
+        },
+        {
+          "price": 749000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2308 S Wellington St E, Salt Lake City, UT 84106"
+        },
+        {
+          "price": 400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "463 S Goshen St, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 580000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1527 Roberta St, Salt Lake City, UT 84115"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "915 W 300 S, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 775000,
+          "beds": 3,
+          "baths": 2,
+          "address": "383 E 10th Ave, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 890000,
+          "beds": 3,
+          "baths": 2,
+          "address": "136 E 3rd Ave N, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 315000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1228 Iola Ave, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 419900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1418 S Utahna Dr, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2309 E Garfield Ave S, Salt Lake City, UT 84108"
+        },
+        {
+          "price": 569000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1747 S 300 E, Salt Lake City, UT 84115"
+        },
+        {
+          "price": 480000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1126 N Victoria Way W, Salt Lake City, UT 84116"
+        },
+        {
+          "price": 567000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2618 S Lincoln St, Salt Lake City, UT 84106"
+        },
+        {
+          "price": 664900,
+          "beds": 3,
+          "baths": 2,
+          "address": "329 N Almond W, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 400000,
+          "beds": 3,
+          "baths": 2,
+          "address": "150 S 800 E Unit G1, Salt Lake City, UT 84102"
+        },
+        {
+          "price": 465000,
+          "beds": 3,
+          "baths": 2,
+          "address": "147 W Paxton Ave, Salt Lake City, UT 84101"
+        },
+        {
+          "price": 645000,
+          "beds": 3,
+          "baths": 2,
+          "address": "463 E Kensington Ave S, Salt Lake City, UT 84115"
+        },
+        {
+          "price": 117000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1594 W 400 S #99, Salt Lake City, UT 84104"
+        },
+        {
+          "price": 785000,
+          "beds": 3,
+          "baths": 2,
+          "address": "602 N De Soto St, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 740000,
+          "beds": 3,
+          "baths": 2,
+          "address": "887 E 3rd Ave, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 779000,
+          "beds": 3,
+          "baths": 2,
+          "address": "611 N West Capitol St, Salt Lake City, UT 84103"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "245 N Vine St #205, Salt Lake City, UT 84103"
+        }
+      ]
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "state": "WA",
+      "medianPrice": 767500.0,
+      "sampleSize": 40,
+      "source": "https://www.redfin.com/city/16163/WA/Seattle/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 10,
+      "samples": [
+        {
+          "price": 1199000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1331 Harbor Ave SW #103, Seattle, WA 98116"
+        },
+        {
+          "price": 775000,
+          "beds": 3,
+          "baths": 2,
+          "address": "610 Wheeler St #404, Seattle, WA 98109"
+        },
+        {
+          "price": 1089000,
+          "beds": 3,
+          "baths": 2,
+          "address": "524 12th Ave E #301, Seattle, WA 98102"
+        },
+        {
+          "price": 635000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2831 14th Ave W #2, Seattle, WA 98119"
+        },
+        {
+          "price": 599999,
+          "beds": 3,
+          "baths": 2,
+          "address": "3608 26th Pl W #301, Seattle, WA 98199"
+        },
+        {
+          "price": 770000,
+          "beds": 3,
+          "baths": 2,
+          "address": "320 Melrose Ave E #704, Seattle, WA 98102"
+        },
+        {
+          "price": 474900,
+          "beds": 3,
+          "baths": 2,
+          "address": "800 N Allen Pl #401, Seattle, WA 98103"
+        },
+        {
+          "price": 675000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8001 Sand Point Way NE Unit C48, Seattle, WA 98115"
+        },
+        {
+          "price": 575000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1214 Taylor Ave N #101, Seattle, WA 98109"
+        },
+        {
+          "price": 630000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1214 Taylor Ave N #201, Seattle, WA 98109"
+        },
+        {
+          "price": 1075000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10737 3rd Ave NW, Seattle, WA 98177"
+        },
+        {
+          "price": 724950,
+          "beds": 3,
+          "baths": 2,
+          "address": "11744 Dayton Ave N, Seattle, WA 98133"
+        },
+        {
+          "price": 549900,
+          "beds": 3,
+          "baths": 2,
+          "address": "518 N 102nd St, Seattle, WA 98133"
+        },
+        {
+          "price": 799950,
+          "beds": 3,
+          "baths": 2,
+          "address": "13111 Ashworth Ave N, Seattle, WA 98133"
+        },
+        {
+          "price": 545000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1605 NE 143rd St, Seattle, WA 98125"
+        },
+        {
+          "price": 625000,
+          "beds": 3,
+          "baths": 2,
+          "address": "14346 Interlake Ave N, Seattle, WA 98133"
+        },
+        {
+          "price": 799950,
+          "beds": 3,
+          "baths": 2,
+          "address": "9751 Densmore Ave N, Seattle, WA 98103"
+        },
+        {
+          "price": 537950,
+          "beds": 3,
+          "baths": 2,
+          "address": "8526 Nesbit Ave N Unit D, Seattle, WA 98103"
+        },
+        {
+          "price": 649000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9026 Corliss Ave N, Seattle, WA 98103"
+        },
+        {
+          "price": 615000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1313 N 95th St, Seattle, WA 98103"
+        },
+        {
+          "price": 584950,
+          "beds": 3,
+          "baths": 2,
+          "address": "910 NE 113th St, Seattle, WA 98125"
+        },
+        {
+          "price": 755000,
+          "beds": 3,
+          "baths": 2,
+          "address": "12042 14th Ave NE, Seattle, WA 98125"
+        },
+        {
+          "price": 975000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10527 23rd Ave NE, Seattle, WA 98125"
+        },
+        {
+          "price": 749950,
+          "beds": 3,
+          "baths": 2,
+          "address": "1222 NE 100th St, Seattle, WA 98125"
+        },
+        {
+          "price": 875000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11037 Sand Point Way NE, Seattle, WA 98125"
+        },
+        {
+          "price": 610000,
+          "beds": 3,
+          "baths": 2,
+          "address": "11735 35th Ave NE, Seattle, WA 98125"
+        },
+        {
+          "price": 765000,
+          "beds": 3,
+          "baths": 2,
+          "address": "14345 36th Ave NE, Seattle, WA 98125"
+        },
+        {
+          "price": 749950,
+          "beds": 3,
+          "baths": 2,
+          "address": "3261 C NE 98th St, Seattle, WA 98115"
+        },
+        {
+          "price": 875000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4503 NE 95th St, Seattle, WA 98115"
+        },
+        {
+          "price": 649950,
+          "beds": 3,
+          "baths": 2,
+          "address": "11309 Goodwin Way NE, Seattle, WA 98125"
+        },
+        {
+          "price": 1225000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1405 N 41st St, Seattle, WA 98103"
+        },
+        {
+          "price": 999500,
+          "beds": 3,
+          "baths": 2,
+          "address": "1211 N 50th St, Seattle, WA 98103"
+        },
+        {
+          "price": 995000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4216 27th Ave W, Seattle, WA 98199"
+        },
+        {
+          "price": 988000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3243 22nd Ave W, Seattle, WA 98199"
+        },
+        {
+          "price": 1455000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4715 W Roberts Way, Seattle, WA 98199"
+        },
+        {
+          "price": 1035000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3226 30th Ave W, Seattle, WA 98199"
+        },
+        {
+          "price": 1020000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4037 30th Ave W, Seattle, WA 98199"
+        },
+        {
+          "price": 1150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3022 W Smith St, Seattle, WA 98199"
+        },
+        {
+          "price": 1325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4312 W Ruffner St, Seattle, WA 98199"
+        },
+        {
+          "price": 999900,
+          "beds": 3,
+          "baths": 2,
+          "address": "534 W Barrett St, Seattle, WA 98119"
+        }
+      ]
+    },
+    {
+      "id": "asheville",
+      "name": "Asheville",
+      "state": "NC",
+      "medianPrice": 447916.5,
+      "sampleSize": 30,
+      "source": "https://www.redfin.com/city/555/NC/Asheville/3-bedroom-2-bath",
+      "sourceCrawl": "2 weeks ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 6,
+      "samples": [
+        {
+          "price": 735000,
+          "beds": 3,
+          "baths": 2,
+          "address": "165 Cherokee Rd, Asheville, NC 28804"
+        },
+        {
+          "price": 685000,
+          "beds": 3,
+          "baths": 2,
+          "address": "70 Saint Dunstans Cir, Asheville, NC 28803"
+        },
+        {
+          "price": 497000,
+          "beds": 3,
+          "baths": 2,
+          "address": "48 Mckinnish Cove Dr, Asheville, NC 28806"
+        },
+        {
+          "price": 625000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1 Craftsman Cir, Asheville, NC 28805"
+        },
+        {
+          "price": 559000,
+          "beds": 3,
+          "baths": 2,
+          "address": "43 Rex Dr, Asheville, NC 28806"
+        },
+        {
+          "price": 424450,
+          "beds": 3,
+          "baths": 2,
+          "address": "655 School Rd E, Asheville, NC 28803"
+        },
+        {
+          "price": 379000,
+          "beds": 3,
+          "baths": 2,
+          "address": "227 Cedar Hill Rd, Asheville, NC 28806"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "43 Vermont Ct Unit A3, Asheville, NC 28806"
+        },
+        {
+          "price": 2330000,
+          "beds": 3,
+          "baths": 2,
+          "address": "61 State St, Asheville, NC 28806"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "104 Newfound Rd, Asheville, NC 28806"
+        },
+        {
+          "price": 325000,
+          "beds": 3,
+          "baths": 2,
+          "address": "40 Rocking Porch Ln, Asheville, NC 28805"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "39 Mountain Site Ln, Asheville, NC 28803"
+        },
+        {
+          "price": 599000,
+          "beds": 3,
+          "baths": 2,
+          "address": "60 Roberts St, Asheville, NC 28801"
+        },
+        {
+          "price": 450000,
+          "beds": 3,
+          "baths": 2,
+          "address": "63 Wilmington Rd, Asheville, NC 28803"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "16 Gracelyn Rd, Asheville, NC 28804"
+        },
+        {
+          "price": 375000,
+          "beds": 3,
+          "baths": 2,
+          "address": "376 School Rd E, Asheville, NC 28803"
+        },
+        {
+          "price": 448000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10 Foggy Hollow Trl, Asheville, NC 28806"
+        },
+        {
+          "price": 315000,
+          "beds": 3,
+          "baths": 2,
+          "address": "131 Bellamy Rd, Asheville, NC 28806"
+        },
+        {
+          "price": 447833,
+          "beds": 3,
+          "baths": 2,
+          "address": "13 Laurel Place Dr, Asheville, NC 28803"
+        },
+        {
+          "price": 895000,
+          "beds": 3,
+          "baths": 2,
+          "address": "33 Maywood Rd, Asheville, NC 28804"
+        },
+        {
+          "price": 289000,
+          "beds": 3,
+          "baths": 2,
+          "address": "437 Appeldoorn Cir, Asheville, NC 28803"
+        },
+        {
+          "price": 335000,
+          "beds": 3,
+          "baths": 2,
+          "address": "47 Wilmington St, Asheville, NC 28806"
+        },
+        {
+          "price": 365000,
+          "beds": 3,
+          "baths": 2,
+          "address": "44 Hollybrook Dr, Asheville, NC 28803"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "540 Old Haw Creek Rd, Asheville, NC 28805"
+        },
+        {
+          "price": 398000,
+          "beds": 3,
+          "baths": 2,
+          "address": "48 & 49 Cedar Mountain Rd, Asheville, NC 28803"
+        },
+        {
+          "price": 379000,
+          "beds": 3,
+          "baths": 2,
+          "address": "92 Lakeside Dr, Asheville, NC 28806"
+        },
+        {
+          "price": 614000,
+          "beds": 3,
+          "baths": 2,
+          "address": "25 Ocaso Dr, Asheville, NC 28806"
+        },
+        {
+          "price": 650000,
+          "beds": 3,
+          "baths": 2,
+          "address": "920 Sand Hill Rd, Asheville, NC 28806"
+        },
+        {
+          "price": 275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "26 Audrey Ln, Asheville, NC 28806"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3001 Saint Augustine Pl Unit AA1, Asheville, NC 28805"
+        }
+      ]
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "state": "NY",
+      "medianPrice": 799999,
+      "sampleSize": 15,
+      "source": "https://www.redfin.com/city/30749/NY/New-York/3-bedroom-2-bath",
+      "sourceCrawl": "3 days ago",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 28,
+      "samples": [
+        {
+          "price": 799999,
+          "beds": 3,
+          "baths": 2,
+          "address": "8707 Avenue B, Brooklyn, NY 11236"
+        },
+        {
+          "price": 1099000,
+          "beds": 3,
+          "baths": 2,
+          "address": "519 W 135th St Unit 5B, New York, NY 10031"
+        },
+        {
+          "price": 739000,
+          "beds": 3,
+          "baths": 2,
+          "address": "45 Schofield St, Bronx, NY 10464"
+        },
+        {
+          "price": 859999,
+          "beds": 3,
+          "baths": 2,
+          "address": "2924 Ely Ave, Bronx, NY 10469"
+        },
+        {
+          "price": 899999,
+          "beds": 3,
+          "baths": 2,
+          "address": "370 90th St Unit 2D, Brooklyn, NY 11209"
+        },
+        {
+          "price": 998888,
+          "beds": 3,
+          "baths": 2,
+          "address": "185 Hillcrest St, Staten Island, NY 10308"
+        },
+        {
+          "price": 878000,
+          "beds": 3,
+          "baths": 2,
+          "address": "342 Little Clove Rd, Staten Island, NY 10301"
+        },
+        {
+          "price": 728000,
+          "beds": 3,
+          "baths": 2,
+          "address": "253 Vanderbilt Ave, Staten Island, NY 10304"
+        },
+        {
+          "price": 699000,
+          "beds": 3,
+          "baths": 2,
+          "address": "160 Hett Ave, Staten Island, NY 10306"
+        },
+        {
+          "price": 490000,
+          "beds": 3,
+          "baths": 2,
+          "address": "618 Louisiana Ave #2, Brooklyn, NY 11239"
+        },
+        {
+          "price": 2522500,
+          "beds": 3,
+          "baths": 2,
+          "address": "10 Nevins St Unit 17-I, Brooklyn, NY 11217"
+        },
+        {
+          "price": 519000,
+          "beds": 3,
+          "baths": 2,
+          "address": "179 Surf Dr #114, Bronx, NY 10473"
+        },
+        {
+          "price": 769999,
+          "beds": 3,
+          "baths": 2,
+          "address": "10 Elson St, Staten Island, NY 10314"
+        },
+        {
+          "price": 998000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2636 E 29th St, Brooklyn, NY 11235"
+        },
+        {
+          "price": 799000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3018 Neptune Ave, Brooklyn, NY 11224"
+        }
+      ]
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "state": "PA",
+      "medianPrice": 309500.0,
+      "sampleSize": 32,
+      "source": "https://www.redfin.com/city/15502/PA/Philadelphia/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 14,
+      "samples": [
+        {
+          "price": 474900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1001-13 Chestnut St Unit 403E, Philadelphia, PA 19107"
+        },
+        {
+          "price": 635000,
+          "beds": 3,
+          "baths": 2,
+          "address": "251 S Warnock St, Philadelphia, PA 19107"
+        },
+        {
+          "price": 360000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8030 Burholme Ave, Philadelphia, PA 19111"
+        },
+        {
+          "price": 269000,
+          "beds": 3,
+          "baths": 2,
+          "address": "114 E Pleasant St, Philadelphia, PA 19119"
+        },
+        {
+          "price": 230000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4151 Barnett St, Philadelphia, PA 19135"
+        },
+        {
+          "price": 384900,
+          "beds": 3,
+          "baths": 2,
+          "address": "12728 Cabell Rd, Philadelphia, PA 19154"
+        },
+        {
+          "price": 750000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1813 Spruce St Unit 4R, Philadelphia, PA 19103"
+        },
+        {
+          "price": 274900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1968 73rd Ave, Philadelphia, PA 19138"
+        },
+        {
+          "price": 420000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2001 Hamilton St #2215, Philadelphia, PA 19130"
+        },
+        {
+          "price": 169900,
+          "beds": 3,
+          "baths": 2,
+          "address": "200 N 52nd St, Philadelphia, PA 19139"
+        },
+        {
+          "price": 464000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2015 Martha St, Philadelphia, PA 19125"
+        },
+        {
+          "price": 424900,
+          "beds": 3,
+          "baths": 2,
+          "address": "421 Selma St, Philadelphia, PA 19116"
+        },
+        {
+          "price": 425000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7242 Hill Rd, Philadelphia, PA 19128"
+        },
+        {
+          "price": 212500,
+          "beds": 3,
+          "baths": 2,
+          "address": "371 E Cliveden St, Philadelphia, PA 19119"
+        },
+        {
+          "price": 200000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3006 Cedar St, Philadelphia, PA 19134"
+        },
+        {
+          "price": 599900,
+          "beds": 3,
+          "baths": 2,
+          "address": "1222 S Alder St, Philadelphia, PA 19147"
+        },
+        {
+          "price": 150000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4821 D St, Philadelphia, PA 19120"
+        },
+        {
+          "price": 224900,
+          "beds": 3,
+          "baths": 2,
+          "address": "203 W Champlost Ave, Philadelphia, PA 19120"
+        },
+        {
+          "price": 249900,
+          "beds": 3,
+          "baths": 2,
+          "address": "906 W Rockland St, Philadelphia, PA 19141"
+        },
+        {
+          "price": 335000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2442 S Lawrence St, Philadelphia, PA 19148"
+        },
+        {
+          "price": 180000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5037 Stenton Ave, Philadelphia, PA 19144"
+        },
+        {
+          "price": 170000,
+          "beds": 3,
+          "baths": 2,
+          "address": "933 N 66th St, Philadelphia, PA 19151"
+        },
+        {
+          "price": 140000,
+          "beds": 3,
+          "baths": 2,
+          "address": "726 W Rockland St, Philadelphia, PA 19120"
+        },
+        {
+          "price": 135000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3321 N 22nd St, Philadelphia, PA 19140"
+        },
+        {
+          "price": 510000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1741 S 5th St, Philadelphia, PA 19148"
+        },
+        {
+          "price": 290000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7076 Forrest Ave, Philadelphia, PA 19138"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2629 E Venango St, Philadelphia, PA 19134"
+        },
+        {
+          "price": 384999,
+          "beds": 3,
+          "baths": 2,
+          "address": "3369 Edgemont St, Philadelphia, PA 19134"
+        },
+        {
+          "price": 360000,
+          "beds": 3,
+          "baths": 2,
+          "address": "512 N Holly St, Philadelphia, PA 19104"
+        },
+        {
+          "price": 329000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7322 Brentwood, Philadelphia, PA 19151"
+        },
+        {
+          "price": 265000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6057 Lawndale St, Philadelphia, PA 19111"
+        },
+        {
+          "price": 250000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4946 Mulberry St, Philadelphia, PA 19124"
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "state": "IL",
+      "medianPrice": 397000.0,
+      "sampleSize": 40,
+      "source": "https://www.redfin.com/city/29470/IL/Chicago/3-bedroom-2-bath",
+      "sourceCrawl": "today",
+      "retrievedAt": "2026-10-11",
+      "page": 1,
+      "pageCount": 11,
+      "samples": [
+        {
+          "price": 699900,
+          "beds": 3,
+          "baths": 2,
+          "address": "3735 N Wolcott Ave #11, Chicago, IL 60613"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "175 E Delaware Pl #7308, Chicago, IL 60611"
+        },
+        {
+          "price": 275000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10223 S Indiana Ave, Chicago, IL 60628"
+        },
+        {
+          "price": 399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "941 W 32nd St, Chicago, IL 60608"
+        },
+        {
+          "price": 289000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1536 W Pratt Blvd Unit 3D, Chicago, IL 60626"
+        },
+        {
+          "price": 289900,
+          "beds": 3,
+          "baths": 2,
+          "address": "8506 S Euclid Ave, Chicago, IL 60617"
+        },
+        {
+          "price": 865000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1433 N Ashland Ave Unit 4W, Chicago, IL 60622"
+        },
+        {
+          "price": 434000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5559 S Blackstone Ave #3, Chicago, IL 60637"
+        },
+        {
+          "price": 875000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5324 N Laramie Ave, Chicago, IL 60630"
+        },
+        {
+          "price": 690000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1916 W Belmont Ave Unit 3W, Chicago, IL 60657"
+        },
+        {
+          "price": 399900,
+          "beds": 3,
+          "baths": 2,
+          "address": "7350 W Summerdale Ave, Chicago, IL 60656"
+        },
+        {
+          "price": 395000,
+          "beds": 3,
+          "baths": 2,
+          "address": "6821 N Ravenswood Ave, Chicago, IL 60626"
+        },
+        {
+          "price": 399000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1445 N State Pkwy #1904, Chicago, IL 60610"
+        },
+        {
+          "price": 195000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9146 S Woodlawn Ave, Chicago, IL 60619"
+        },
+        {
+          "price": 560000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4149 N Kenmore Ave Unit 2N, Chicago, IL 60613"
+        },
+        {
+          "price": 209900,
+          "beds": 3,
+          "baths": 2,
+          "address": "8343 S Dorchester Ave, Chicago, IL 60619"
+        },
+        {
+          "price": 99900,
+          "beds": 3,
+          "baths": 2,
+          "address": "820 E 90th Pl, Chicago, IL 60619"
+        },
+        {
+          "price": 379900,
+          "beds": 3,
+          "baths": 2,
+          "address": "5253 S Moody Ave, Chicago, IL 60638"
+        },
+        {
+          "price": 925000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3306 N Clifton Ave Unit 3N, Chicago, IL 60657"
+        },
+        {
+          "price": 260000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9926 S Luella Ave, Chicago, IL 60617"
+        },
+        {
+          "price": 550000,
+          "beds": 3,
+          "baths": 2,
+          "address": "2463 W Foster Ave #2, Chicago, IL 60625"
+        },
+        {
+          "price": 639900,
+          "beds": 3,
+          "baths": 2,
+          "address": "7339 N Oconto Ave, Chicago, IL 60631"
+        },
+        {
+          "price": 1105000,
+          "beds": 3,
+          "baths": 2,
+          "address": "211 N Harbor Dr #3509, Chicago, IL 60601"
+        },
+        {
+          "price": 419000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5703 S Blackstone Ave #1, Chicago, IL 60637"
+        },
+        {
+          "price": 219900,
+          "beds": 3,
+          "baths": 2,
+          "address": "10504 S Lafayette Ave, Chicago, IL 60628"
+        },
+        {
+          "price": 385000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5201 S Blackstone Ave Unit 1W, Chicago, IL 60615"
+        },
+        {
+          "price": 73500,
+          "beds": 3,
+          "baths": 2,
+          "address": "225 W 112th St, Chicago, IL 60628"
+        },
+        {
+          "price": 199999,
+          "beds": 3,
+          "baths": 2,
+          "address": "5203 S Indiana Ave #1, Chicago, IL 60615"
+        },
+        {
+          "price": 229000,
+          "beds": 3,
+          "baths": 2,
+          "address": "10609 S Indiana Ave, Chicago, IL 60628"
+        },
+        {
+          "price": 895000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3544 N Fremont St Unit 4S, Chicago, IL 60657"
+        },
+        {
+          "price": 380000,
+          "beds": 3,
+          "baths": 2,
+          "address": "8607 S Tripp Ave, Chicago, IL 60652"
+        },
+        {
+          "price": 550000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1205 N Spaulding Ave Unit 3S, Chicago, IL 60651"
+        },
+        {
+          "price": 220000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7012 S Paxton Ave Unit 2N, Chicago, IL 60649"
+        },
+        {
+          "price": 125000,
+          "beds": 3,
+          "baths": 2,
+          "address": "7931 S Muskegon Ave, Chicago, IL 60617"
+        },
+        {
+          "price": 430000,
+          "beds": 3,
+          "baths": 2,
+          "address": "5730 S Oak Park Ave, Chicago, IL 60638"
+        },
+        {
+          "price": 480000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3216 N Ottawa Ave, Chicago, IL 60634"
+        },
+        {
+          "price": 299000,
+          "beds": 3,
+          "baths": 2,
+          "address": "9347 S Wallace St, Chicago, IL 60620"
+        },
+        {
+          "price": 619000,
+          "beds": 3,
+          "baths": 2,
+          "address": "1931 S Jefferson St Unit 4N, Chicago, IL 60616"
+        },
+        {
+          "price": 253000,
+          "beds": 3,
+          "baths": 2,
+          "address": "4858 S Indiana Ave #204, Chicago, IL 60615"
+        },
+        {
+          "price": 355000,
+          "beds": 3,
+          "baths": 2,
+          "address": "3738 W 83rd Pl, Chicago, IL 60652"
+        }
+      ]
+    }
+  ]
+}

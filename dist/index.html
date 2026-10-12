@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fafaf7"><meta name="description" content="Build a portfolio of cities for nice weather, with Palo Alto as the benchmark.">
+<title>Weather Portfolio</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='20' fill='%2393a77c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./style.css"><script type="module" src="./app.js"></script>
+</head>
+<body>
+<header>
+<h1>Weather Portfolio</h1>
+<p class="credit">Heavily inspired by and forked from <a href="https://weather.theojaffee.net" target="_blank" rel="noopener">weather.theojaffee.net</a></p>
+</header>
+<main>
+<div class="definitions">
+<p><strong>Nice Day</strong> = <span id="criteria-summary">High 60–82°F · rain &lt; 1 mm · wind &lt; 25 mph</span> <button class="text-button" data-action="settings">Edit</button></p>
+<p><strong>Cost of Living</strong> = Proxied by the median price of a 3 bdr / 2 bath house, normalized to Palo Alto = 1.</p>
+</div>
+<div id="loading" role="status">Loading…</div><div id="error" role="alert" hidden></div>
+<div class="workspace" id="explore">
+<aside class="cities" aria-label="Choose portfolio cities">
+<div class="section-heading"><h2>Cities</h2><span id="selection-count">0 / 3 selected</span></div>
+<input id="city-search" type="search" placeholder="Search cities…" aria-label="Search cities" autocomplete="off">
+<div id="selected-cities" class="selected-cities"></div>
+<div id="city-picker" class="city-picker"></div>
+<p id="city-count" class="caption"></p>
+</aside>
+<section id="portfolio" aria-label="Weather portfolio" aria-live="polite"></section>
+</div>
+<footer><span>Weather: 2016–2025 · Housing: Oct 2026 listing samples</span><div><button class="text-button" data-action="sources">Sources</button><button class="text-button" data-action="share">Copy link</button><a class="text-button" href="https://github.com/alexpeys/weather_portfolio" target="_blank" rel="noopener">Fork on GitHub</a></div></footer>
+</main>
+<dialog id="settings-dialog" aria-labelledby="settings-title">
+<form id="settings-form">
+<div class="dialog-heading"><h2 id="settings-title">Nice day</h2><button type="button" class="close" data-close="settings-dialog" aria-label="Close preferences">×</button></div>
+<div class="form-grid">
+<label>Minimum daily high (°F)<input name="low" type="number" min="40" max="99" step="1" required></label>
+<label>Maximum daily high (°F)<input name="high" type="number" min="41" max="110" step="1" required></label>
+<label>Rain (mm / day)<select name="rain"><option value="0.1">Under 0.1</option><option value="1">Under 1</option><option value="3">Under 3</option></select></label>
+<label>Daytime wind<select name="wind"><option value="15">Under 9 mph</option><option value="25">Under 16 mph</option><option value="40.2336">Under 25 mph</option></select></label>
+<label>Cloud cover<select name="cloud"><option value="100">Any sky</option><option value="60">At most 60%</option><option value="40">At most 40%</option></select></label>
+</div>
+<div class="dialog-actions"><button type="button" class="text-button" data-action="reset-settings">Reset</button><button type="submit" class="primary">Apply</button></div>
+</form></dialog>
+<dialog id="sources-dialog" aria-labelledby="sources-title">
+<div class="dialog-heading"><h2 id="sources-title">Sources</h2><button class="close" data-close="sources-dialog" aria-label="Close sources">×</button></div>
+<p><a href="https://open-meteo.com/en/docs/historical-weather-api" target="_blank" rel="noopener">Open-Meteo ERA5-Seamless</a>: daily highs and rain, maximum 9 am–6 pm wind. Complete 2016–2025 histories; February 29 excluded. Monthly fractions = average nice days ÷ days in the month. The yearly nice-day index divides annual nice days by Palo Alto’s annual nice days under the same settings: Palo Alto all year = 1.00.</p>
+<p>CoL uses first-page Redfin asking-price samples for exactly 3 beds / 2 baths, including all residential types. These are sample medians, not citywide sale medians. The portfolio index is weighted by months in each city. Click a city's CoL value for its listing source.</p>
+<p><a href="./climate.json" target="_blank" rel="noopener">Weather data</a> · <a href="./housing.json" target="_blank" rel="noopener">Housing samples</a> · <a href="https://github.com/tjaffee99/weather" target="_blank" rel="noopener">Original repository</a></p>
+</dialog>
+<div id="toast" role="status" hidden></div>
+</body></html>
